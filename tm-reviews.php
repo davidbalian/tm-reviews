@@ -3,8 +3,8 @@
  * Plugin Name: TM Reviews
  * Plugin URI:: https://themeforest.net/user/tm_colors
  * Description: Reviews plugin for TM_Colors, VK Themes and Templines themes. Don't delete this plugin.
- * Version: 2.5.7
- * Author:TM_Colors
+ * Version: 1.0.0
+ * Author: David Balian
  * Author URI: https://themeforest.net/user/tm_colors
  * License: GPL v2
  */
