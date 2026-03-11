@@ -4,7 +4,7 @@
 //Background Image
 $bg_img = tmreviews_get_mod('place_bg', true);
 if(isset($bg_img) && $bg_img != ''){
-    $bg_img_url = $bg_img['url'];
+    $bg_img_url = is_array($bg_img) ? $bg_img['url'] : $bg_img;
     $places_bg_style = 'style=background:url(' . $bg_img_url .')';
 } else {
     $places_bg_style = '';
@@ -21,7 +21,14 @@ if(isset($bg_cl) && $bg_cl != ''){
 //Logo
 $logo = tmreviews_get_mod('place_logo', true);
 if(isset($logo) && $logo != ''){
-    $places_logo_img = '<img class="fl-places-logo" alt="'.esc_attr($logo["title"], "tm-reviews").'" src="'.esc_url($logo["url"], "tm-reviews").'">';
+    if ( is_array($logo) ) {
+        $logo_title = isset($logo['title']) ? $logo['title'] : '';
+        $logo_url   = isset($logo['url'])   ? $logo['url']   : '';
+    } else {
+        $logo_title = '';
+        $logo_url   = $logo;
+    }
+    $places_logo_img = '<img class="fl-places-logo" alt="'.esc_attr($logo_title).'" src="'.esc_url($logo_url).'">';
 } else {
     $places_logo_img = '';
 }
@@ -115,9 +122,15 @@ $subtitle = tmreviews_get_mod('place_subtitle', true);
 
 //Address
 $address = tmreviews_get_mod('place_address', true);
-$long = $address['lng'];
-$lat = $address['lat'];
-$zoom = $address['zoom'];
+if ( is_array($address) ) {
+    $long = isset($address['lng'])  ? $address['lng']  : '';
+    $lat  = isset($address['lat'])  ? $address['lat']  : '';
+    $zoom = isset($address['zoom']) ? $address['zoom'] : '';
+} else {
+    $long = '';
+    $lat  = '';
+    $zoom = '';
+}
 
 //Phone
 $phone = tmreviews_get_mod('place_phone', true);
