@@ -7,8 +7,13 @@ add_action( 'init', 'tmreviews__places_init', 0 );
 if( !function_exists('tmreviews__places_init') ){
     function tmreviews__places_init() {
 
+        $post_type = tmreviews_get_post_type();
+        $taxonomy  = $post_type . '-category';
+
+        add_rewrite_tag( '%tmreviews_cat%', '([^/]+)', $taxonomy . '=' );
+
         $labels = array(
-            'name'                  => ucfirst(tmreviews_get_post_type()),
+            'name'                  => ucfirst($post_type),
             'singular_name'         => esc_html__( 'Item', 'tm-reviews' ),
             'add_new'               => esc_html__( 'Add New Item', 'tm-reviews' ),
             'add_new_item'          => esc_html__( 'Add New Item', 'tm-reviews' ),
@@ -23,17 +28,20 @@ if( !function_exists('tmreviews__places_init') ){
         $args = array(
             'labels'                => $labels,
             'public'                => true,
-            'supports'              => array( 'title', 'editor', 'thumbnail', 'author', 'comments'), //'revisions'),
+            'supports'              => array( 'title', 'editor', 'thumbnail', 'author', 'comments'),
             'capability_type'       => 'post',
             'menu_position'         => 5,
-            'has_archive'           => true,
+            'has_archive'           => $post_type,
             'menu_icon'             => TMREVIEWS_HELPING_PREVIEW_IMAGE.'/favicon.png',
+            'rewrite'               => array(
+                'slug'       => '%tmreviews_cat%',
+                'with_front' => false,
+            ),
         );
 
         $args = apply_filters('tmreviews__args', $args);
 
-        register_post_type(tmreviews_get_post_type(), $args);
-        flush_rewrite_rules();
+        register_post_type($post_type, $args);
 
 
         /**
@@ -70,7 +78,7 @@ if( !function_exists('tmreviews__places_init') ){
             'query_var'         => true,
             'rewrite'           => false,
         );
-        register_taxonomy( tmreviews_get_post_type() . '-category', array( tmreviews_get_post_type() ), $taxonomy_restaurant_category_args );
+        register_taxonomy( $taxonomy, array( $post_type ), $taxonomy_restaurant_category_args );
     }
 }
 

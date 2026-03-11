@@ -119,6 +119,8 @@ function tmreviews_plugin_activation() {
     
     $plugin = new TMReviews__Helping_Addons();
     $plugin->create_plugin_pages();
+
+    set_transient( 'tmreviews_flush_rewrite', true );
 }
 
 
@@ -142,6 +144,7 @@ function tmreviews_helper_load_textdomain(){
 
 // Подключаем файлы
 require_once plugin_dir_path(__FILE__) . 'custom_taxonomy/places.php';
+require_once plugin_dir_path(__FILE__) . 'function/permalink_rewrite.php';
 require_once plugin_dir_path(__FILE__) . 'widgets/recent-places-widget.php';
 require_once plugin_dir_path(__FILE__) . 'widgets/popular-categories-widget.php';
 
