@@ -1,0 +1,52 @@
+.elementor-widget-templines-button-simple .link__template:hover {
+  background-color: #00bff5; }
+
+.elementor-widget-templines-button-simple .link__template {
+  max-width: 300px;
+  width: 100%;
+  height: 60px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-family: inherit;
+  font-weight: 500;
+  background-color: #de2929;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  border: none;
+  margin: 0; }
+
+.elementor-widget-templines-button-simple .link__template .text {
+  width: 100%;
+  text-align: center; }
+
+.elementor-widget-templines-button-simple .link__template span {
+  display: block;
+  width: 80px;
+  background-color: #ab1212;
+  height: 60px; }
+
+.elementor-widget-templines-button-simple .link__template span svg {
+  fill: #fff; }
+
+.elementor-widget-templines-button-simple .link__template:hover {
+  color: #fff;
+  -webkit-box-shadow: 0px 10px 19px -11px rgba(0, 0, 0, 0.61);
+  box-shadow: 0px 10px 19px -11px rgba(0, 0, 0, 0.61); }
+
+.first-bg-color:hover span,
+.elementor-widget-templines-button-simple .link__template:hover span {
+  background-color: #07a0cb !important; }
+
+.tmreviews_left .link__template {
+  margin-right: auto;
+  margin-left: 0; }
+
+.tmreviews_right .link__template {
+  margin-right: 0;
+  margin-left: auto; }
+
+.tmreviews_center .link__template {
+  margin: auto; }
+
+/*# sourceMappingURL=button.css.map */

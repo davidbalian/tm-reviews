@@ -1,0 +1,278 @@
+.fl-places-style-two{
+  .fl-row{
+    margin-bottom: 44px;
+    display: flex;
+    justify-content: center;
+  }
+  .fl-places-cat{
+    margin: 0 10px;
+    display: inline-block;
+    position: relative;
+    width: 31%;
+    height: 400px;
+    overflow: hidden;
+    a.fl-places-cat-contain{
+      height: 100%;
+      display: flex;
+      position: relative;
+      z-index: 1;
+      &:after{
+        content: '';
+        background-image: linear-gradient(25deg,#000 0%,transparent 100%);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: block;
+        left: 0;
+        top: 0;
+      }
+    }
+    img{
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+    .fl-places-meta{
+      position: absolute;
+      bottom: 45px;
+      width: 100%;
+      .fl-places-title{
+        font-size: 28px;
+        color: #ffffff;
+        width: 100%;
+        display: inline-block;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        z-index: 4;
+        &:hover{
+          color: #fc4c59;
+          transition: .3s ease-in-out;
+        }
+      }
+      .fl-service-bottom{
+        position: relative;
+        z-index: 1;
+        margin: 0 40px;
+        .fl-places-results{
+          position: relative;
+          color: #fefefe;
+          background: #488bf0;
+          padding: 10px 14px;
+          border-radius: 25px;
+          text-align: center;
+          z-index: 1;
+          margin-left: 40px;
+          margin-bottom: 20px;
+          display: inline-block;
+        }
+        .fl-places-reviews-count{
+          color: #fff;
+          display: inline-block;
+          font-size: 13px;
+          text-align: left;
+          width: fit-content;
+          margin-left: 15px;
+          font-weight: 600;
+          text-transform: uppercase;
+          i{
+            margin-right: 7px;
+          }
+        }
+      }
+    }
+
+
+  }
+}
+
+.fl-places-style-one{
+  .fl-row{
+    margin-bottom: 44px;
+    display: flex;
+    justify-content: center;
+  }
+  .fl-places-cat{
+    margin: 0 10px;
+    display: inline-block;
+    position: relative;
+    width: 31%;
+    height: 400px;
+    overflow: hidden;
+    a.fl-places-cat-contain{
+      height: 100%;
+      display: flex;
+      position: relative;
+      z-index: 1;
+      &:after{
+        content: '';
+        background-image: linear-gradient(25deg,#000 0%,transparent 100%);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: block;
+        left: 0;
+        top: 0;
+      }
+    }
+    img{
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+    .fl-places-meta{
+      position: absolute;
+      bottom: 40px;
+      width: 100%;
+      .fl-places-results{
+        position: relative;
+        color: #fefefe;
+        background: #fc4c59;
+        padding: 10px 14px;
+        border-radius: 25px;
+        text-align: center;
+        z-index: 1;
+        margin-left: 40px;
+        margin-bottom: 20px;
+        display: inline-block;
+      }
+      .fl-service-bottom{
+        position: relative;
+        z-index: 1;
+        margin: 0 40px;
+        .fl-places-title{
+          font-size: 30px;
+          color: #ffffff;
+          width: 50%;
+          display: inline-block;
+          &:hover{
+            color: #fc4c59;
+            transition: .3s ease-in-out;
+          }
+        }
+        .fl-places-reviews-count{
+          color: #fff;
+          display: inline-block;
+          width: 50%;
+          font-size: 13px;
+          text-align: right;
+          i{
+            margin-right: 7px;
+          }
+        }
+      }
+    }
+
+
+  }
+}
+
+
+
+@media screen and (max-width: 1170px){
+  .fl-places-cat-contain .fl-row{
+    display: block!important;
+  }
+  .fl-places-cat-contain .fl-places-cat{
+    height: 230px!important;
+  }
+  .fl-places-cat-contain .fl-places-cat .fl-places-meta .fl-places-results{
+    margin-left: 15px!important;
+    margin-bottom: 10px!important;
+  }
+  .fl-places-cat-contain .fl-places-cat .fl-places-meta .fl-service-bottom{
+    margin: 0 15px!important;
+  }
+  .fl-places-cat-contain .fl-places-cat .fl-places-meta .fl-service-bottom .fl-places-title{
+    font-size: 24px!important;
+    width: 75%!important;
+  }
+  html .fl-places-cat-contain .fl-places-cat .fl-places-meta .fl-service-bottom .fl-places-reviews-count{
+    width: 25%!important;
+    font-size: 8px!important;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .fl-places-cat-contain .fl-row{
+    display: block!important;
+  }
+  .fl-places-cat-contain .fl-places-cat{
+    margin: auto!important;
+    width: 100%!important;
+    height: 215px!important;
+  }
+  .fl-places-cat-contain .fl-places-cat .fl-places-meta .fl-places-results{
+    margin-left: 15px!important;
+    margin-bottom: 10px!important;
+  }
+  .fl-places-cat-contain .fl-places-cat .fl-places-meta .fl-service-bottom{
+    margin: 0 15px!important;
+  }
+  .fl-places-cat-contain .fl-places-cat .fl-places-meta .fl-service-bottom .fl-places-title{
+    font-size: 24px!important;
+    width: 75%!important;
+  }
+  html .fl-places-cat-contain .fl-places-cat .fl-places-meta .fl-service-bottom .fl-places-reviews-count{
+    width: 25%!important;
+    font-size: 8px!important;
+  }
+
+}
+
+@media (max-width: 400px) {
+
+  .fl-places-cat-contain .fl-row{
+    display: block!important;
+  }
+  .fl-places-cat-contain .fl-places-cat{
+    margin: auto!important;
+    width: 100%!important;
+    height: 215px!important;
+  }
+  .fl-places-cat-contain .fl-places-cat .fl-places-meta .fl-places-results{
+    margin-left: 15px!important;
+    margin-bottom: 10px!important;
+  }
+  .fl-places-cat-contain .fl-places-cat .fl-places-meta .fl-service-bottom{
+    margin: 0 15px!important;
+  }
+  .fl-places-cat-contain .fl-places-cat .fl-places-meta .fl-service-bottom .fl-places-title{
+    font-size: 24px!important;
+    width: 75%!important;
+  }
+  html .fl-places-cat-contain .fl-places-cat .fl-places-meta .fl-service-bottom .fl-places-reviews-count{
+    width: 25%!important;
+    font-size: 8px!important;
+  }
+
+}
+
+@media (max-width: 360px) {
+
+  .fl-places-cat-contain .fl-row{
+    display: block!important;
+  }
+  .fl-places-cat-contain .fl-places-cat{
+    margin: auto!important;
+    width: 100%!important;
+    height: 215px!important;
+  }
+  .fl-places-cat-contain .fl-places-cat .fl-places-meta .fl-places-results{
+    margin-left: 15px!important;
+    margin-bottom: 10px!important;
+  }
+  .fl-places-cat-contain .fl-places-cat .fl-places-meta .fl-service-bottom{
+    margin: 0 15px!important;
+  }
+  .fl-places-cat-contain .fl-places-cat .fl-places-meta .fl-service-bottom .fl-places-title{
+    font-size: 24px!important;
+    width: 75%!important;
+  }
+  html .fl-places-cat-contain .fl-places-cat .fl-places-meta .fl-service-bottom .fl-places-reviews-count{
+    width: 25%!important;
+    font-size: 8px!important;
+  }
+
+}

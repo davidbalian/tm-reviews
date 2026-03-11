@@ -1,0 +1,137 @@
+@font-face {
+  font-family: 'gazek';
+  src: url('../fonts/gazek.eot?22392839');
+  src: url('../fonts/gazek.eot?22392839#iefix') format('embedded-opentype'),
+       url('../fonts/gazek.woff2?22392839') format('woff2'),
+       url('../fonts/gazek.woff?22392839') format('woff'),
+       url('../fonts/gazek.ttf?22392839') format('truetype'),
+       url('../fonts/gazek.svg?22392839#gazek') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'gazek';
+    src: url('../font/gazek.svg?22392839#gazek') format('svg');
+  }
+}
+*/
+ 
+ [class^="gazek-"]:before, [class*=" gazek-"]:before {
+  font-family: "gazek";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.gazek-icon-clock-with-clockwise:before { content: '\e800'; } /* '' */
+.gazek-icon-closed-book:before { content: '\e801'; } /* '' */
+.gazek-icon-computer-mouse-with-long-cable:before { content: '\e802'; } /* '' */
+.gazek-icon-curriculum-with-picture:before { content: '\e803'; } /* '' */
+.gazek-icon-desk-lamp-facing-left:before { content: '\e804'; } /* '' */
+.gazek-icon-diagram-scheme:before { content: '\e805'; } /* '' */
+.gazek-icon-editor-pencil:before { content: '\e806'; } /* '' */
+.gazek-icon-factory-with-chimney:before { content: '\e807'; } /* '' */
+.gazek-icon-filing-cabinet:before { content: '\e808'; } /* '' */
+.gazek-icon-funds:before { content: '\e809'; } /* '' */
+.gazek-icon-glasses-with-reflection:before { content: '\e80a'; } /* '' */
+.gazek-icon-hand-touching-button:before { content: '\e80b'; } /* '' */
+.gazek-icon-headphones-with-thin-mic:before { content: '\e80c'; } /* '' */
+.gazek-icon-horizontal-tablet-with-line:before { content: '\e80d'; } /* '' */
+.gazek-icon-hot-drink-facing-left:before { content: '\e80e'; } /* '' */
+.gazek-icon-inclined-clip:before { content: '\e80f'; } /* '' */
+.gazek-icon-inclined-compass:before { content: '\e810'; } /* '' */
+.gazek-icon-inclined-key:before { content: '\e811'; } /* '' */
+.gazek-icon-inclined-label:before { content: '\e812'; } /* '' */
+.gazek-icon-inclined-magnifying-glass:before { content: '\e813'; } /* '' */
+.gazek-icon-inclined-paper-plane:before { content: '\e814'; } /* '' */
+.gazek-icon-inclined-pen:before { content: '\e815'; } /* '' */
+.gazek-icon-inclined-pin:before { content: '\e816'; } /* '' */
+.gazek-icon-inclined-rocket:before { content: '\e817'; } /* '' */
+.gazek-icon-letter-and-envelope:before { content: '\e818'; } /* '' */
+.gazek-icon-line-stats:before { content: '\e819'; } /* '' */
+.gazek-icon-list-with-text:before { content: '\e81a'; } /* '' */
+.gazek-icon-long-tie:before { content: '\e81b'; } /* '' */
+.gazek-icon-mathematic-calculator:before { content: '\e81c'; } /* '' */
+.gazek-icon-megaphone-facing-right:before { content: '\e81d'; } /* '' */
+.gazek-icon-month-calendar:before { content: '\e81e'; } /* '' */
+.gazek-icon-networking-group:before { content: '\e81f'; } /* '' */
+.gazek-icon-offering-left-hand:before { content: '\e820'; } /* '' */
+.gazek-icon-open-book-with-bookmark:before { content: '\e821'; } /* '' */
+.gazek-icon-open-laptop:before { content: '\e822'; } /* '' */
+.gazek-icon-package-with-parachute:before { content: '\e823'; } /* '' */
+.gazek-icon-padlock-closed:before { content: '\e824'; } /* '' */
+.gazek-icon-pc-tower-and-monitor:before { content: '\e825'; } /* '' */
+.gazek-icon-pen-and-paper:before { content: '\e826'; } /* '' */
+.gazek-icon-phone-on-circle:before { content: '\e827'; } /* '' */
+.gazek-icon-piggy-bank-with-coin:before { content: '\e828'; } /* '' */
+.gazek-icon-plane-facing-right:before { content: '\e829'; } /* '' */
+.gazek-icon-projector-screen:before { content: '\e82a'; } /* '' */
+.gazek-icon-public-speech:before { content: '\e82b'; } /* '' */
+.gazek-icon-quality-badge:before { content: '\e82c'; } /* '' */
+.gazek-icon-repair-tools:before { content: '\e82d'; } /* '' */
+.gazek-icon-screen-with-at:before { content: '\e82e'; } /* '' */
+.gazek-icon-shopping-bag-open:before { content: '\e82f'; } /* '' */
+.gazek-icon-shop-with-sign:before { content: '\e830'; } /* '' */
+.gazek-icon-speech-bubble-with-text:before { content: '\e831'; } /* '' */
+.gazek-icon-teacher-briefcase:before { content: '\e832'; } /* '' */
+.gazek-icon-three-bars:before { content: '\e833'; } /* '' */
+.gazek-icon-three-binders:before { content: '\e834'; } /* '' */
+.gazek-icon-truck-facing-right:before { content: '\e835'; } /* '' */
+.gazek-icon-two-contacts:before { content: '\e836'; } /* '' */
+.gazek-icon-two-gears:before { content: '\e837'; } /* '' */
+.gazek-icon-two-money-cards:before { content: '\e838'; } /* '' */
+.gazek-icon-wallet-closed:before { content: '\e839'; } /* '' */
+.gazek-icon-web-home:before { content: '\e83a'; } /* '' */
+.gazek-icon-world-globe:before { content: '\e83b'; } /* '' */
+.gazek-icon-you-are-here:before { content: '\e83c'; } /* '' */
+.gazek-icon-abacus-with-stand:before { content: '\e83d'; } /* '' */
+.gazek-icon-appointment-book:before { content: '\e83e'; } /* '' */
+.gazek-icon-bank-safe-box:before { content: '\e83f'; } /* '' */
+.gazek-icon-bank-sign:before { content: '\e840'; } /* '' */
+.gazek-icon-big-cart:before { content: '\e841'; } /* '' */
+.gazek-icon-big-cloud:before { content: '\e842'; } /* '' */
+.gazek-icon-big-envelope:before { content: '\e843'; } /* '' */
+.gazek-icon-big-invoice:before { content: '\e844'; } /* '' */
+.gazek-icon-big-lifesaver:before { content: '\e845'; } /* '' */
+.gazek-icon-big-light:before { content: '\e846'; } /* '' */
+.gazek-icon-big-telephone:before { content: '\e847'; } /* '' */
+.gazek-icon-big-towers:before { content: '\e848'; } /* '' */
+.gazek-icon-browser-with-text-lines:before { content: '\e849'; } /* '' */
+.gazek-icon-building-with-big-windows:before { content: '\e84a'; } /* '' */
+.gazek-icon-business-cards:before { content: '\e84b'; } /* '' */
+.gazek-icon-cactus-in-a-pot:before { content: '\e84c'; } /* '' */
+.gazek-icon-cart-facing-left:before { content: '\e84d'; } /* '' */
+.gazek-icon-chair-with-wheels:before { content: '\e84e'; } /* '' */
+.gazek-icon-clipboard-with-blank-paper:before { content: '\e84f'; } /* '' */

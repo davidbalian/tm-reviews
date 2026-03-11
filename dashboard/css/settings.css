@@ -1,0 +1,124 @@
+/* Стили для страницы настроек places (Styles for places settings page) */
+.tmreview-contain {
+    background-color: #fff !important;
+    border-radius: 10px !important;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15) !important;
+    padding: 30px !important;
+    max-width: 900px !important;
+    margin-top: 20px !important;
+    border: 1px solid #e0e0e0 !important;
+}
+
+.tmreview-contain h2 {
+    font-size: 28px !important;
+    margin-bottom: 25px !important;
+    color: #2271b1 !important;
+    border-bottom: 3px solid #2271b1 !important;
+    padding-bottom: 15px !important;
+    font-weight: 600 !important;
+}
+
+/* Группировка настроек (Settings grouping) */
+.tmreviews-option-group {
+    background-color: #f9f9f9 !important;
+    border-left: 5px solid #2271b1 !important;
+    padding: 20px !important;
+    margin-bottom: 25px !important;
+    border-radius: 0 8px 8px 0 !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+}
+
+.tmreviews-option-group h3 {
+    margin-top: 0 !important;
+    margin-bottom: 20px !important;
+    font-size: 18px !important;
+    color: #2271b1 !important;
+    font-weight: 600 !important;
+}
+
+.tmreviews-form .form_options {
+    margin-bottom: 20px !important;
+    padding-bottom: 20px !important;
+    border-bottom: 1px solid #eaeaea !important;
+}
+
+.tmreviews-form .form_options:last-child {
+    border-bottom: none !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.tmreviews-form label {
+    display: block !important;
+    font-weight: 600 !important;
+    margin-bottom: 10px !important;
+    color: #333 !important;
+    font-size: 14px !important;
+}
+
+
+
+
+
+.tmreviews-form button,
+.tmreviews-form input[type="submit"] {
+    background-color: #2271b1 !important;
+    border: none !important;
+    color: #fff !important;
+    padding: 12px 25px !important;
+    font-size: 16px !important;
+    border-radius: 6px !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s !important;
+    margin-top: 20px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+}
+
+.tmreviews-form button:hover,
+.tmreviews-form input[type="submit"]:hover {
+    background-color: #135e96 !important;
+}
+
+.tmreviews-form input[type="checkbox"] {
+    margin-right: 10px !important;
+    width: 18px !important;
+    height: 18px !important;
+}
+
+
+
+html form.tmreviews-form button {
+    padding: 10px 30px;
+    background: #04568d;
+    color: #fff;
+    border: 0px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    line-height: 20px;
+    font-weight: 600;
+    height: auto;
+    padding: 6px 10px !important;
+    font-size: 12px !important;
+    min-width: 120px;
+}
+
+#tmreviews-test-telegram{
+    margin-bottom: 20px !important;
+}
+
+
+/* Адаптивные стили (Responsive styles) */
+@media screen and (max-width: 782px) {
+    .tmreview-contain {
+        padding: 20px !important;
+    }
+    
+    .tmreviews-form input[type="text"],
+    .tmreviews-form input[type="number"],
+    .tmreviews-form select,
+    .tmreviews-form textarea {
+        max-width: 100% !important;
+    }
+}

@@ -1,0 +1,1182 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"Project-Id-Version: TM Reviews\n"
+"POT-Creation-Date: 2021-05-16 23:25+0600\n"
+"PO-Revision-Date: 2021-05-18 15:32+0000\n"
+"Last-Translator: John Smith\n"
+"Language-Team: Русский\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: tm-reviews.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: ru_RU\n"
+"X-Loco-Version: 2.5.2; wp-5.6.4"
+
+#: afc_custom_fields/custom_icon_picker/acf-customiconpicker-v5.php:26
+msgid "Custom Icon Picker"
+msgstr ""
+
+#: afc_custom_fields/custom_icon_picker/acf-customiconpicker-v5.php:63
+#: afc_custom_fields/icon_picker/acf-fonticonpicker-v5.php:63
+msgid "No icons found"
+msgstr ""
+
+#: afc_custom_fields/custom_icon_picker/acf-customiconpicker-v5.php:72
+#: afc_custom_fields/icon_picker/acf-fonticonpicker-v5.php:72
+msgid "None"
+msgstr ""
+
+#: afc_custom_fields/icon_picker/acf-fonticonpicker-v5.php:26
+msgid "Icon Picker"
+msgstr ""
+
+#: afc_custom_fields/image_selector/acf-image_select-v5.php:32
+msgid "Image Select"
+msgstr ""
+
+#: afc_custom_fields/image_selector/acf-image_select-v5.php:61
+msgid "Error! Please enter a higher value"
+msgstr ""
+
+#: afc_custom_fields/image_selector/acf-image_select-v5.php:110
+msgid "Choices"
+msgstr ""
+
+#: afc_custom_fields/image_selector/acf-image_select-v5.php:111
+msgid ""
+"Enter your choices one per line <br /> Red <br /> Blue <br /> red : Red <br "
+"/> blue : Blue <br /><span style=\"color:#BC0B0B\">Please note:</span> The "
+"first value of each choices will used as name of image.<br />Like for "
+"\"<strong>Blue</strong>\" or \"<strong>blue : Blue</strong>\", the image "
+"name will be \"<strong>blue.png</strong>\""
+msgstr ""
+
+#: afc_custom_fields/image_selector/acf-image_select-v5.php:117
+#: afc_custom_fields/rgba-color-master/acf-extended-color-picker-v5.php:171
+msgid "Default Value"
+msgstr ""
+
+#: afc_custom_fields/image_selector/acf-image_select-v5.php:123
+msgid "Allow Multiple Choices?"
+msgstr ""
+
+#: afc_custom_fields/image_selector/acf-image_select-v5.php:126
+#: vc_custom/custom_params_option.php:160
+#: vc_custom/custom_params_option.php:270
+#: vc_custom/custom_params_option.php:303
+#: vc_custom/custom_params_option.php:401
+#: vc_custom/custom_params_option.php:530
+#: vc_custom/custom_params_option.php:570
+#: vc_custom/custom_params_option.php:646
+#: vc_custom/custom_params_option.php:686
+#: vc_custom/custom_params_option.php:801
+#: vc_custom/custom_params_option.php:839
+#: vc_custom/custom_params_option.php:927
+#: vc_custom/custom_params_option.php:955
+#: vc_custom/params/fl-responsive-css.php:152
+msgid "Yes"
+msgstr ""
+
+#: afc_custom_fields/image_selector/acf-image_select-v5.php:127
+#: vc_custom/custom_params_option.php:161
+#: vc_custom/custom_params_option.php:271
+#: vc_custom/custom_params_option.php:304
+#: vc_custom/custom_params_option.php:402
+#: vc_custom/custom_params_option.php:531
+#: vc_custom/custom_params_option.php:571
+#: vc_custom/custom_params_option.php:647
+#: vc_custom/custom_params_option.php:687
+#: vc_custom/custom_params_option.php:802
+#: vc_custom/custom_params_option.php:840
+#: vc_custom/custom_params_option.php:928
+#: vc_custom/custom_params_option.php:956
+#: vc_custom/params/fl-responsive-css.php:151
+msgid "No"
+msgstr ""
+
+#: afc_custom_fields/image_selector/acf-image_select-v5.php:134
+msgid "Image Path"
+msgstr ""
+
+#: afc_custom_fields/image_selector/acf-image_select-v5.php:135
+msgid "Enter folder URL for images <b>based on current theme</b>."
+msgstr ""
+
+#: afc_custom_fields/image_selector/acf-image_select-v5.php:141
+msgid "Image Extension"
+msgstr ""
+
+#: afc_custom_fields/rgba-color-master/acf-extended-color-picker-v5.php:36
+msgid "RGBA Color Picker"
+msgstr ""
+
+#: afc_custom_fields/rgba-color-master/acf-extended-color-picker-v5.php:95
+msgid "Clear"
+msgstr ""
+
+#: afc_custom_fields/rgba-color-master/acf-extended-color-picker-v5.php:96
+#: vc_custom/custom_params_option.php:219
+#: vc_custom/custom_params_option.php:376
+#: vc_custom/custom_params_option.php:434
+#: vc_custom/custom_params_option.php:485
+#: vc_custom/custom_params_option.php:605
+#: vc_custom/custom_params_option.php:721
+#: vc_custom/custom_params_option.php:751
+#: vc_custom/custom_params_option.php:872
+#: vc_custom/custom_params_option.php:902
+#: vc_custom/params/fl-responsive-css.php:135
+msgid "Default"
+msgstr ""
+
+#: afc_custom_fields/rgba-color-master/acf-extended-color-picker-v5.php:97
+msgid "Select Color"
+msgstr ""
+
+#: afc_custom_fields/rgba-color-master/acf-extended-color-picker-v5.php:98
+msgid "Current Color"
+msgstr ""
+
+#: custom_taxonomy/places.php:11
+#: vc_custom/maps-shortcode/vc_tmgazek_places_map.php:11
+msgid "Places"
+msgstr ""
+
+#: custom_taxonomy/places.php:12
+msgid "Place Item"
+msgstr ""
+
+#: custom_taxonomy/places.php:13
+msgid "Add New Item"
+msgstr ""
+
+#: custom_taxonomy/places.php:14 custom_taxonomy/places.php:16
+msgid "Add New Place Item"
+msgstr ""
+
+#: custom_taxonomy/places.php:15
+msgid "Edit Place Item"
+msgstr ""
+
+#: custom_taxonomy/places.php:17
+msgid "View Item"
+msgstr ""
+
+#: custom_taxonomy/places.php:18
+msgid "Search Places"
+msgstr ""
+
+#: custom_taxonomy/places.php:19
+msgid "No Places items found"
+msgstr ""
+
+#: custom_taxonomy/places.php:20
+msgid "No Places items found in trash"
+msgstr ""
+
+#: custom_taxonomy/places.php:45
+msgid "Places Categories"
+msgstr ""
+
+#: custom_taxonomy/places.php:46
+msgid "Place Category"
+msgstr ""
+
+#: custom_taxonomy/places.php:47
+msgid "Search Place Categories"
+msgstr ""
+
+#: custom_taxonomy/places.php:48
+msgid "Popular Place Categories"
+msgstr ""
+
+#: custom_taxonomy/places.php:49
+msgid "All Place Categories"
+msgstr ""
+
+#: custom_taxonomy/places.php:50
+msgid "Parent Place Category"
+msgstr ""
+
+#: custom_taxonomy/places.php:51
+msgid "Parent Place Category:"
+msgstr ""
+
+#: custom_taxonomy/places.php:52
+msgid "Edit Place Category"
+msgstr ""
+
+#: custom_taxonomy/places.php:53
+msgid "Update Place Category"
+msgstr ""
+
+#: custom_taxonomy/places.php:54
+msgid "Add New Place Category"
+msgstr ""
+
+#: custom_taxonomy/places.php:55
+msgid "New Place Category Name"
+msgstr ""
+
+#: custom_taxonomy/places.php:56
+msgid "Separate Place categories with commas"
+msgstr ""
+
+#: custom_taxonomy/places.php:57
+msgid "Add or remove Place categories"
+msgstr ""
+
+#: custom_taxonomy/places.php:58
+msgid "Choose from the most used Place categories"
+msgstr ""
+
+#: custom_taxonomy/places.php:59
+msgid "Place Categories"
+msgstr ""
+
+#: custom_taxonomy/places.php:85
+msgid "Thumbnail"
+msgstr ""
+
+#: dashboard/dashboard.php:69 dashboard/dashboard.php:70
+msgid "Settings"
+msgstr ""
+
+#: function/custom_function.php:12
+msgid "Facebook Username"
+msgstr ""
+
+#: function/custom_function.php:13
+msgid "Google Plus Username"
+msgstr ""
+
+#: function/custom_function.php:14
+msgid "Instagram Username"
+msgstr ""
+
+#: function/custom_function.php:15
+msgid "Pinterest Username"
+msgstr ""
+
+#: function/custom_function.php:16
+msgid "Twitter Username"
+msgstr ""
+
+#: function/custom_function.php:17
+msgid "Behance Username"
+msgstr ""
+
+#: function/custom_function.php:18
+msgid "Phone Number"
+msgstr ""
+
+#: function/custom_function.php:392 tm-reviews.php:608
+msgid "Home"
+msgstr ""
+
+#: function/custom_function.php:393 tm-reviews.php:639
+msgid "Blog"
+msgstr ""
+
+#: function/custom_function.php:394 tm-reviews.php:609
+msgid "Archive"
+msgstr ""
+
+#: function/custom_function.php:395 tm-reviews.php:610
+msgid "Search results:"
+msgstr ""
+
+#: function/custom_function.php:396 tm-reviews.php:611
+msgid "Tag"
+msgstr ""
+
+#: function/custom_function.php:397 tm-reviews.php:612
+msgid "Author"
+msgstr ""
+
+#: function/custom_function.php:398 tm-reviews.php:613
+msgid "Error 404"
+msgstr ""
+
+#: function/custom_function.php:399 tm-reviews.php:614
+msgid "Shop"
+msgstr ""
+
+#: function/custom_function.php:555 tm-reviews.php:780
+msgid "Page"
+msgstr ""
+
+#: function/like/post-like.php:32 function/like/post-like.php:226
+msgid "Like"
+msgstr ""
+
+#: function/like/post-like.php:33 function/like/post-like.php:222
+msgid "Unlike"
+msgstr ""
+
+#: function/like/post-like.php:47
+msgid "Not permitted"
+msgstr ""
+
+#: function/like/post-like.php:365
+msgid "You Like:"
+msgstr ""
+
+#: function/like/post-like.php:391
+msgid "You do not like anything yet."
+msgstr ""
+
+#: plugin-update-checker/Puc/v4p11/Plugin/Ui.php:54
+msgid "View details"
+msgstr ""
+
+#: plugin-update-checker/Puc/v4p11/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: plugin-update-checker/Puc/v4p11/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr ""
+
+#: plugin-update-checker/Puc/v4p11/Plugin/Ui.php:214
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: plugin-update-checker/Puc/v4p11/Plugin/Ui.php:216
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: plugin-update-checker/Puc/v4p11/Plugin/Ui.php:218
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr ""
+
+#: plugin-update-checker/Puc/v4p11/Plugin/Ui.php:224
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: plugin-update-checker/Puc/v4p11/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr ""
+
+#: templates/archive-places.php:12 templates/category-places.php:11
+msgid "Search reviews..."
+msgstr ""
+
+#: templates/category-places.php:5
+msgid "All Categories Reviews"
+msgstr ""
+
+#: templates/places-comments.php:58
+msgid "Comment navigation"
+msgstr ""
+
+#: templates/places-comments.php:80
+msgid "Comments are closed"
+msgstr ""
+
+#: templates/places-comments.php:87
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: templates/places-comments.php:92
+msgid "Add Review"
+msgstr ""
+
+#: templates/places-comments.php:97
+msgid "Your Name *"
+msgstr ""
+
+#: templates/places-comments.php:100
+msgid "Email Address *"
+msgstr ""
+
+#: templates/places-comments.php:106
+msgid "Enter your Review *"
+msgstr ""
+
+#: templates/places-comments.php:109
+msgid "Submit Review"
+msgstr ""
+
+#: templates/places-search.php:6
+msgid "Reviews Search Results"
+msgstr ""
+
+#: templates/places-search.php:12
+msgid "Filter By Keyword"
+msgstr ""
+
+#: templates/reviews-walker.php:134 templates/template-reviews.php:92
+#: vc_custom/vc_templates/vc_tmgazek_reviews.php:144
+#: vc_custom/vc_templates/vc_tmgazek_reviews.php:247
+msgid "Review Published: "
+msgstr ""
+
+#: templates/reviews-walker.php:145
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: templates/reviews-walker.php:189 templates/reviews-walker.php:216
+#: templates/reviews-walker.php:229
+#, php-format
+msgid "%s Reply"
+msgstr ""
+
+#: templates/single-places.php:134
+msgid "Based on "
+msgstr ""
+
+#: templates/single-places.php:134
+msgid " reviews"
+msgstr ""
+
+#: templates/single-places.php:151
+msgid "Your place is in moderation."
+msgstr ""
+
+#: templates/template-add-place.php:19 tm-reviews.php:1114
+msgid "Failed security check"
+msgstr ""
+
+#: templates/template-add-place.php:171 tm-reviews.php:1265
+msgid "General"
+msgstr ""
+
+#: templates/template-add-place.php:175 tm-reviews.php:1269
+msgid "Title"
+msgstr ""
+
+#: templates/template-add-place.php:185 tm-reviews.php:1279
+msgid "Sub Title"
+msgstr ""
+
+#: templates/template-add-place.php:195 tm-reviews.php:1289
+msgid "Description"
+msgstr ""
+
+#: templates/template-add-place.php:206 tm-reviews.php:1306
+msgid "Contacts"
+msgstr ""
+
+#: templates/template-add-place.php:210 tm-reviews.php:1310
+msgid "Phone"
+msgstr ""
+
+#: templates/template-add-place.php:220 tm-reviews.php:1320
+msgid "Email"
+msgstr ""
+
+#: templates/template-add-place.php:230 tm-reviews.php:1330
+msgid "Website"
+msgstr ""
+
+#: templates/template-add-place.php:240 tm-reviews.php:1339
+msgid "Socials"
+msgstr ""
+
+#: templates/template-add-place.php:244 tm-reviews.php:1343
+msgid "Facebook"
+msgstr ""
+
+#: templates/template-add-place.php:254 tm-reviews.php:1353
+msgid "Twitter"
+msgstr ""
+
+#: templates/template-add-place.php:264 tm-reviews.php:1363
+msgid "Dribble"
+msgstr ""
+
+#: templates/template-add-place.php:274 tm-reviews.php:1373
+msgid "LinkedIn"
+msgstr ""
+
+#: templates/template-add-place.php:284 tm-reviews.php:1383
+msgid "Behance"
+msgstr ""
+
+#: templates/template-add-place.php:294 tm-reviews.php:1393
+msgid "Instagram"
+msgstr ""
+
+#: templates/template-add-place.php:305 tm-reviews.php:1402
+msgid "Images"
+msgstr ""
+
+#: templates/template-add-place.php:309 tm-reviews.php:1406
+msgid "Thumbnail Image"
+msgstr ""
+
+#: templates/template-add-place.php:321 tm-reviews.php:1418
+msgid "Logo Image"
+msgstr ""
+
+#: templates/template-add-place.php:333 tm-reviews.php:1430
+msgid "Background Image"
+msgstr ""
+
+#: templates/template-add-place.php:344 tm-reviews.php:1440
+msgid "Manage gallery"
+msgstr ""
+
+#: templates/template-add-place.php:345 tm-reviews.php:1441
+msgid "Clear gallery"
+msgstr ""
+
+#: templates/template-add-place.php:364 tm-reviews.php:1459
+msgid "Category"
+msgstr ""
+
+#: templates/template-add-place.php:381 tm-reviews.php:1473
+msgid "Submit"
+msgstr ""
+
+#: templates/template-reviews.php:91
+#: vc_custom/vc_templates/vc_tmgazek_reviews.php:143
+#: vc_custom/vc_templates/vc_tmgazek_reviews.php:246
+msgid "Read review"
+msgstr "Читать отзывы"
+
+#: templates/template-user-reviews.php:108
+msgid "Review:"
+msgstr ""
+
+#: templates/template-user-reviews.php:145
+msgid "Review Published:"
+msgstr ""
+
+#: tm-reviews.php:247
+msgid "Your rating"
+msgstr ""
+
+#: tm-reviews.php:336
+#, php-format
+msgid "%s out of 5"
+msgstr ""
+
+#: tm-reviews.php:412
+msgid "Pros if have"
+msgstr ""
+
+#: tm-reviews.php:413
+msgid "Cons if have"
+msgstr ""
+
+#: tm-reviews.php:825
+#, php-format
+msgid ""
+"Image size exceeds the maximum limit. Maximum allowed image size is %d byte."
+msgstr ""
+
+#: tm-reviews.php:829
+#, php-format
+msgid "Image dimensions are too small. Minimum size is %d by %d pixels."
+msgstr ""
+
+#: tm-reviews.php:883
+msgid "This file type is not allowed."
+msgstr ""
+
+#: tm-reviews.php:925
+msgid "Comments"
+msgstr ""
+
+#: tm-reviews.php:965
+msgid "ERROR: you are replying to a comment on a draft post."
+msgstr ""
+
+#: tm-reviews.php:981
+msgid "Sorry, you must be logged in to reply to a comment."
+msgstr ""
+
+#: tm-reviews.php:985
+msgid "ERROR: please type a comment."
+msgstr ""
+
+#: vc_custom/custom_params_option.php:131
+#: vc_custom/custom_params_option.php:385
+#: vc_custom/custom_params_option.php:555
+#: vc_custom/custom_params_option.php:670
+#: vc_custom/custom_params_option.php:824
+msgid "CSS Animation"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:134
+#: vc_custom/custom_params_option.php:388
+#: vc_custom/custom_params_option.php:558
+#: vc_custom/custom_params_option.php:673
+#: vc_custom/custom_params_option.php:827
+msgid ""
+"Select type of animation for element to be animated when it \"enters\" the "
+"browsers viewport (Note: works only in modern browsers)."
+msgstr ""
+
+#: vc_custom/custom_params_option.php:168
+msgid "Animation Delay"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:194
+msgid "Custom ID"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:202
+msgid "Custom Classes"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:210
+msgid "CSS"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:212
+#: vc_custom/custom_params_option.php:231
+#: vc_custom/custom_params_option.php:240
+#: vc_custom/custom_params_option.php:250
+#: vc_custom/custom_params_option.php:446
+#: vc_custom/custom_params_option.php:455
+#: vc_custom/custom_params_option.php:477
+#: vc_custom/custom_params_option.php:493
+#: vc_custom/custom_params_option.php:501
+#: vc_custom/custom_params_option.php:512
+#: vc_custom/custom_params_option.php:617
+#: vc_custom/custom_params_option.php:626
+#: vc_custom/custom_params_option.php:733
+#: vc_custom/custom_params_option.php:742
+#: vc_custom/custom_params_option.php:759
+#: vc_custom/custom_params_option.php:767
+#: vc_custom/custom_params_option.php:776
+#: vc_custom/custom_params_option.php:784
+#: vc_custom/custom_params_option.php:884
+#: vc_custom/custom_params_option.php:893
+#: vc_custom/custom_params_option.php:910
+msgid "Design Options"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:216
+#: vc_custom/custom_params_option.php:431
+#: vc_custom/custom_params_option.php:602
+#: vc_custom/custom_params_option.php:718
+#: vc_custom/custom_params_option.php:869
+#: vc_custom/params/fl-responsive-css.php:132
+msgid "Background position"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:220
+#: vc_custom/custom_params_option.php:338
+#: vc_custom/custom_params_option.php:435
+#: vc_custom/custom_params_option.php:606
+#: vc_custom/custom_params_option.php:722
+#: vc_custom/custom_params_option.php:873
+#: vc_custom/custom_params_option.php:990
+#: vc_custom/params/fl-responsive-css.php:136
+msgid "Left Top"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:221
+#: vc_custom/custom_params_option.php:436
+#: vc_custom/custom_params_option.php:607
+#: vc_custom/custom_params_option.php:723
+#: vc_custom/custom_params_option.php:874
+#: vc_custom/params/fl-responsive-css.php:137
+msgid "Left Middle"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:222
+#: vc_custom/custom_params_option.php:335
+#: vc_custom/custom_params_option.php:437
+#: vc_custom/custom_params_option.php:608
+#: vc_custom/custom_params_option.php:724
+#: vc_custom/custom_params_option.php:875
+#: vc_custom/custom_params_option.php:987
+#: vc_custom/params/fl-responsive-css.php:138
+msgid "Left Bottom"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:223
+#: vc_custom/custom_params_option.php:340
+#: vc_custom/custom_params_option.php:438
+#: vc_custom/custom_params_option.php:609
+#: vc_custom/custom_params_option.php:725
+#: vc_custom/custom_params_option.php:876
+#: vc_custom/custom_params_option.php:992
+#: vc_custom/params/fl-responsive-css.php:139
+msgid "Center Top"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:224
+#: vc_custom/custom_params_option.php:439
+#: vc_custom/custom_params_option.php:610
+#: vc_custom/custom_params_option.php:726
+#: vc_custom/custom_params_option.php:877
+#: vc_custom/params/fl-responsive-css.php:140
+msgid "Center Middle"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:225
+#: vc_custom/custom_params_option.php:337
+#: vc_custom/custom_params_option.php:440
+#: vc_custom/custom_params_option.php:611
+#: vc_custom/custom_params_option.php:727
+#: vc_custom/custom_params_option.php:878
+#: vc_custom/custom_params_option.php:989
+#: vc_custom/params/fl-responsive-css.php:141
+msgid "Center Bottom"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:226
+#: vc_custom/custom_params_option.php:339
+#: vc_custom/custom_params_option.php:441
+#: vc_custom/custom_params_option.php:612
+#: vc_custom/custom_params_option.php:728
+#: vc_custom/custom_params_option.php:879
+#: vc_custom/custom_params_option.php:991
+#: vc_custom/params/fl-responsive-css.php:142
+msgid "Right Top"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:227
+#: vc_custom/custom_params_option.php:442
+#: vc_custom/custom_params_option.php:613
+#: vc_custom/custom_params_option.php:729
+#: vc_custom/custom_params_option.php:880
+#: vc_custom/params/fl-responsive-css.php:143
+msgid "Right Middle"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:228
+#: vc_custom/custom_params_option.php:336
+#: vc_custom/custom_params_option.php:443
+#: vc_custom/custom_params_option.php:614
+#: vc_custom/custom_params_option.php:730
+#: vc_custom/custom_params_option.php:881
+#: vc_custom/custom_params_option.php:988
+#: vc_custom/params/fl-responsive-css.php:144
+msgid "Right Bottom"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:236
+#: vc_custom/custom_params_option.php:451
+#: vc_custom/custom_params_option.php:622
+#: vc_custom/custom_params_option.php:738
+#: vc_custom/custom_params_option.php:889
+#: vc_custom/params/fl-responsive-css.php:157
+msgid "Minimum height"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:246
+#: vc_custom/custom_params_option.php:497
+#: vc_custom/custom_params_option.php:763
+msgid "Box Shadow"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:256
+#: vc_custom/custom_params_option.php:517
+#: vc_custom/custom_params_option.php:633
+#: vc_custom/custom_params_option.php:788
+#: vc_custom/custom_params_option.php:914
+msgid "Responsive Option"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:311
+#: vc_custom/custom_params_option.php:963
+msgid "Arrow Side"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:315
+#: vc_custom/custom_params_option.php:967
+msgid "Left to Right"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:316
+#: vc_custom/custom_params_option.php:968
+msgid "Right to Left"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:317
+#: vc_custom/custom_params_option.php:969
+msgid "Top to Bottom"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:318
+#: vc_custom/custom_params_option.php:970
+msgid "Bottom to Top"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:320
+#: vc_custom/custom_params_option.php:342
+#: vc_custom/custom_params_option.php:972
+#: vc_custom/custom_params_option.php:994
+msgid "Arrow Options"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:328
+#: vc_custom/custom_params_option.php:980
+msgid "Arrow Position"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:332
+#: vc_custom/custom_params_option.php:984
+msgid "Left"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:333
+#: vc_custom/custom_params_option.php:985
+msgid "Right"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:334
+#: vc_custom/custom_params_option.php:507
+#: vc_custom/custom_params_option.php:986
+msgid "Top"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:372
+msgid "Row stretch"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:377
+msgid "Stretch row"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:378
+msgid "Stretch row and content"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:379
+msgid "Stretch row and content (no paddings)"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:381
+msgid ""
+"Select stretching options for row and content (Note: stretched may not work "
+"properly if parent container has \"overflow: hidden\" CSS property)."
+msgstr ""
+
+#: vc_custom/custom_params_option.php:396
+#: vc_custom/custom_params_option.php:565
+#: vc_custom/custom_params_option.php:681
+#: vc_custom/custom_params_option.php:834
+msgid "Custom Delay"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:406
+#: vc_custom/custom_params_option.php:575
+#: vc_custom/custom_params_option.php:691
+#: vc_custom/custom_params_option.php:844
+msgid "\"Checked\"to show custom delay"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:414
+#: vc_custom/custom_params_option.php:584
+#: vc_custom/custom_params_option.php:700
+#: vc_custom/custom_params_option.php:852
+msgid "Animation delay"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:461
+msgid "Overflow"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:471
+msgid "Select overflow"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:472
+msgid "Overflow visible"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:473
+msgid "Overflow hidden"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:474
+msgid "Overflow auto"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:481
+#: vc_custom/custom_params_option.php:747
+#: vc_custom/custom_params_option.php:898
+msgid "Z-Index"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:773
+msgid "Gradient Color Start"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:781
+msgid "Gradient Color End"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:1136
+msgid "Font Awesome"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:1137
+msgid "Open Iconic"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:1138
+msgid "Typicons"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:1139
+msgid "Entypo"
+msgstr ""
+
+#: vc_custom/custom_params_option.php:1140
+msgid "Linecons"
+msgstr ""
+
+#: vc_custom/maps-shortcode/vc_fl_tmgazek_brokers_tables_map.php:4
+msgid "Broker Tables"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: vc_custom/maps-shortcode/vc_fl_tmgazek_brokers_tables_map.php:6
+#: vc_custom/maps-shortcode/vc_tmgazek_places_map.php:13
+#: vc_custom/maps-shortcode/vc_tmgazek_reviews_map.php:6
+msgid "TM Reviews"
+msgstr ""
+
+#: vc_custom/maps-shortcode/vc_fl_tmgazek_brokers_tables_map.php:14
+msgid "Layers of Broker Tables"
+msgstr ""
+
+#: vc_custom/maps-shortcode/vc_fl_tmgazek_brokers_tables_map.php:19
+msgid "Upload Logo:"
+msgstr ""
+
+#: vc_custom/maps-shortcode/vc_fl_tmgazek_brokers_tables_map.php:24
+#: vc_custom/vc_templates/vc_fl_brokers_tables.php:84
+msgid "Rating"
+msgstr ""
+
+#: vc_custom/maps-shortcode/vc_fl_tmgazek_brokers_tables_map.php:28
+msgid "1"
+msgstr ""
+
+#: vc_custom/maps-shortcode/vc_fl_tmgazek_brokers_tables_map.php:29
+msgid "2"
+msgstr ""
+
+#: vc_custom/maps-shortcode/vc_fl_tmgazek_brokers_tables_map.php:30
+msgid "3"
+msgstr ""
+
+#: vc_custom/maps-shortcode/vc_fl_tmgazek_brokers_tables_map.php:31
+msgid "4"
+msgstr ""
+
+#: vc_custom/maps-shortcode/vc_fl_tmgazek_brokers_tables_map.php:32
+msgid "5"
+msgstr ""
+
+#: vc_custom/maps-shortcode/vc_fl_tmgazek_brokers_tables_map.php:37
+#: vc_custom/vc_templates/vc_fl_brokers_tables.php:88
+msgid "Regulated"
+msgstr ""
+
+#: vc_custom/maps-shortcode/vc_fl_tmgazek_brokers_tables_map.php:44
+#: vc_custom/vc_templates/vc_fl_brokers_tables.php:92
+msgid "Bonus"
+msgstr ""
+
+#: vc_custom/maps-shortcode/vc_fl_tmgazek_brokers_tables_map.php:51
+#: vc_custom/vc_templates/vc_fl_brokers_tables.php:96
+msgid "Min. Deposit"
+msgstr ""
+
+#: vc_custom/maps-shortcode/vc_fl_tmgazek_brokers_tables_map.php:58
+#: vc_custom/vc_templates/vc_fl_brokers_tables.php:100
+msgid "Avg. Returns"
+msgstr ""
+
+#: vc_custom/maps-shortcode/vc_fl_tmgazek_brokers_tables_map.php:68
+msgid "Button One Text"
+msgstr ""
+
+#: vc_custom/maps-shortcode/vc_fl_tmgazek_brokers_tables_map.php:75
+msgid "Button One Link"
+msgstr ""
+
+#: vc_custom/maps-shortcode/vc_fl_tmgazek_brokers_tables_map.php:84
+msgid "Button Two Text"
+msgstr ""
+
+#: vc_custom/maps-shortcode/vc_fl_tmgazek_brokers_tables_map.php:91
+msgid "Button Two Link"
+msgstr ""
+
+#: vc_custom/maps-shortcode/vc_tmgazek_places_map.php:28
+msgid "Places Style"
+msgstr ""
+
+#: vc_custom/maps-shortcode/vc_tmgazek_places_map.php:31
+#: vc_custom/maps-shortcode/vc_tmgazek_places_map.php:40
+#: vc_custom/maps-shortcode/vc_tmgazek_reviews_map.php:16
+#: vc_custom/maps-shortcode/vc_tmgazek_reviews_map.php:26
+msgid "Style One"
+msgstr ""
+
+#: vc_custom/maps-shortcode/vc_tmgazek_places_map.php:32
+#: vc_custom/maps-shortcode/vc_tmgazek_places_map.php:41
+#: vc_custom/maps-shortcode/vc_tmgazek_reviews_map.php:17
+#: vc_custom/maps-shortcode/vc_tmgazek_reviews_map.php:27
+msgid "Style Two"
+msgstr ""
+
+#: vc_custom/maps-shortcode/vc_tmgazek_reviews_map.php:4
+msgid "Reviews"
+msgstr ""
+
+#: vc_custom/maps-shortcode/vc_tmgazek_reviews_map.php:13
+msgid "Reviews Style"
+msgstr ""
+
+#: vc_custom/maps-shortcode/vc_tmgazek_reviews_map.php:18
+#: vc_custom/maps-shortcode/vc_tmgazek_reviews_map.php:28
+msgid "Style Three"
+msgstr ""
+
+#: vc_custom/maps-shortcode/vc_tmgazek_reviews_map.php:34
+msgid "Reviews Count"
+msgstr ""
+
+#: vc_custom/params/fl-custom-params-hotspot.php:19
+msgid "Hotspot tooltip content"
+msgstr ""
+
+#: vc_custom/params/fl-custom-params-hotspot.php:19
+msgid "Save changes"
+msgstr ""
+
+#: vc_custom/params/fl-custom-params-hotspot.php:19
+msgid "Close"
+msgstr ""
+
+#: vc_custom/params/fl-custom-params-text-setting.php:47
+msgid "Font size"
+msgstr ""
+
+#: vc_custom/params/fl-custom-params-text-setting.php:58
+msgid "Line height"
+msgstr ""
+
+#: vc_custom/params/fl-custom-params-text-setting.php:73
+msgid "Letter spacing"
+msgstr ""
+
+#: vc_custom/params/fl-custom-params-text-setting.php:91
+msgid "Font style"
+msgstr ""
+
+#: vc_custom/params/fl-custom-params-text-setting.php:99
+msgid "Italic"
+msgstr ""
+
+#: vc_custom/params/fl-custom-params-text-setting.php:107
+msgid "Bold"
+msgstr ""
+
+#: vc_custom/params/fl-custom-params-text-setting.php:115
+msgid "Underline"
+msgstr ""
+
+#: vc_custom/params/fl-responsive-css.php:40
+msgid "Responsive Options"
+msgstr ""
+
+#: vc_custom/params/fl-responsive-css.php:52
+msgid "Mini Desktop"
+msgstr ""
+
+#: vc_custom/params/fl-responsive-css.php:62
+msgid "Mini Destop Responsive Option"
+msgstr ""
+
+#: vc_custom/params/fl-responsive-css.php:63
+msgid "Screen resolutions from 1199px to 991px"
+msgstr ""
+
+#: vc_custom/params/fl-responsive-css.php:65
+msgid "Table Responsive Option"
+msgstr ""
+
+#: vc_custom/params/fl-responsive-css.php:66
+msgid "Screen resolutions from 991px to 767px"
+msgstr ""
+
+#: vc_custom/params/fl-responsive-css.php:68
+msgid "Mobile Responsive Option"
+msgstr ""
+
+#: vc_custom/params/fl-responsive-css.php:69
+msgid "Screen resolutions less than 767px"
+msgstr ""
+
+#: vc_custom/params/fl-responsive-css.php:148
+msgid "Hide image"
+msgstr ""
+
+#: vc_custom/params/fl-responsive-css.php:162
+#: vc_custom/params/fl-responsive-css.php:169
+msgid "Example: 400px"
+msgstr ""
+
+#: vc_custom/params/fl-responsive-css.php:165
+msgid "Width"
+msgstr ""
+
+#: vc_custom/params/fl_param_products_category.php:32
+#: vc_custom/params/fl_param_products_category.php:34
+#: vc_custom/params/fl_param_works_category.php:32
+#: vc_custom/params/fl_param_works_category.php:34
+msgid "All Categories"
+msgstr ""
+
+#: vc_custom/params/fl_video_link_param.php:16
+msgid "Theme documentation"
+msgstr ""
+
+#: vc_custom/params/fl_video_link_param.php:20
+msgid "Video tutorial"
+msgstr ""
+
+#: vc_custom/vc_templates/vc_fl_brokers_tables.php:80
+msgid "Broker"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ": https://themeforest.net/user/tm_colors"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Reviews plugin for TM_Colors, VK Themes and Templines themes. Don't delete "
+"this plugin."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "TM_Colors"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themeforest.net/user/tm_colors"
+msgstr ""

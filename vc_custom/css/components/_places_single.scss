@@ -1,0 +1,1270 @@
+.fl-places-header{
+  height: 380px;
+  position: relative;
+  padding-top: 110px;
+  .fl-places-header-overlay{
+    height: 380px;
+    //opacity: .85;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  .container{
+    display: flex;
+    height: 100%;
+  }
+  .fl-places-left{
+    position: relative;
+    display: flex;
+    width: 50%;
+    margin: auto;
+    .fl-places-logo-contain{
+      max-width: 130px;
+      width: 100%;
+      height: 130px;
+      background: #fff;
+      text-align: center;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      .fl-places-logo-helper{
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+      }
+      .fl-places-logo{
+        width: 80px;
+        margin: 0 auto;
+        vertical-align: middle;
+      }
+    }
+    .fl-places-title-contain{
+      color: #fff;
+      margin-left: 35px;
+      margin-top: 13px;
+      margin-bottom: 13px;
+      .fl-places-subtitle{
+        display: block;
+        font-size: 14px;
+      }
+      .fl-places-title{
+        display: block;
+        margin: 10px 0px;
+        font-size: 44px;
+        font-weight: 600;
+      }
+      .fl-places-show{
+        display: block;
+        font-size: 14px;
+        i{
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  .fl-places-right{
+    position: relative;
+    width: 50%;
+    text-align: right;
+    margin: auto;
+    .fl-places-average-meta{
+      display: inline-block;
+      margin-right: 15px;
+      vertical-align: middle;
+      i{
+        color: #f0a837;
+      }
+      .fl-places-average{
+        display: block;
+        font-size: 13px;
+        color: #fff;
+      }
+    }
+    .fl-average{
+      display: inline-block;
+      color: #32297b;
+      font-size: 22px;
+      font-weight: 600;
+      padding: 17px;
+      background: #ffde00;
+      border: 10px #595394 solid;
+      border-radius: 50%;
+    }
+  }
+}
+
+.fl-single-place-notice{
+  background: #f6d464;
+  border: 1px #e8a719 solid;
+  padding: 10px 15px;
+  border-radius: 15px;
+  opacity: .85;
+  margin-top: 40px;
+  span{
+    color: #fff;
+  }
+}
+
+.fl-places-content{
+  display: flex;
+  margin-top: 120px;
+  margin-bottom: 80px;
+  position: relative;
+  .fl-places-reviews-contain{
+    position: relative;
+    .fl-places-gallery{
+      .fl-place-gallery-slider{
+        position: relative;
+        .slick-list{
+          img{
+            width: 730px;
+            height: 470px;
+            float: left;
+          }
+        }
+        i{
+          position: absolute;
+          z-index: 1;
+          top: 0;
+          bottom: 0;
+          font-size: 14px;
+          background: #fff;
+          border-radius: 50%;
+          text-align: center;
+          padding: 18px 22.5px;
+          width: 50px;
+          height: 50px;
+          margin: auto;
+        }
+        i.fa-angle-left{
+          left: 30px;
+        }
+        i.fa-angle-right{
+          right: 30px;
+        }
+      }
+    }
+    .comments-container .comment-title{
+      margin-bottom: 0px;
+    }
+    .comments-list{
+      margin-bottom: 50px;
+      border-bottom: 0px;
+      .comment{
+        padding: 55px 90px;
+        padding-left: 65px;
+        border: 1px #ededed solid;
+        margin-bottom: 40px;
+        .fl-reply-from{
+          display: none;
+        }
+        .comment-container{
+          padding-bottom: 0px!important;
+          margin-bottom: 0px!important;
+          flex-wrap: unset;
+
+          .comment-avatar{
+            display: block;
+            padding-right: 35px;
+            .comment-author-name{
+              display: block;
+              color: #222222;
+              font-size: 14px;
+              text-align: center;
+            }
+          }
+          .comment-meta{
+            .comments--rating-wrapper{
+              display: flex;
+              margin-bottom: 25px;
+              .comment-rating-show{
+                width: 50%;
+                .fl-rate-icons{
+                  color: orange;
+                }
+                .fl-single-places-rating-text{
+                  font-size: 13px;
+                  color: #222;
+                  font-weight: 400;
+                }
+              }
+              .comment--time{
+                width: 50%;
+                text-align: right;
+                .fl-link-comment{
+                  font-size: 12px;
+                  color: #858585;
+                }
+                .fl-comment-date{
+                  font-size: 14px;
+                  color: #222222;
+                }
+              }
+            }
+            .comment-moderation{
+              .fl-review-title{
+                color: #32297b;
+                font-weight: 600;
+                font-size: 18px;
+                margin-bottom: 25px;
+                display: block;
+              }
+              p{
+                font-size: 15px;
+                color: #222222;
+              }
+              .cld-like-dislike-wrap{
+                width: 90%;
+                .cld-like-wrap{
+                  border: 1px #32297b solid;
+                  border-radius: 25px;
+                  text-align: center;
+                  padding: 0px 14px;
+                  .cld-like-trigger{
+                    color: #222222;
+                    font-size: 13px;
+                    i.fa-thumbs-up{
+                      font: normal normal normal 15px/1 FontAwesome;
+                      color: #32297b;
+                      &:before{
+                        content: "\f087";
+                      }
+                    }
+                  }
+                }
+                .cld-dislike-wrap{
+                  border: 1px #fc4c59 solid;
+                  border-radius: 25px;
+                  text-align: center;
+                  padding: 0px 14px;
+                  .cld-dislike-trigger{
+                    color: #fc4c59;
+                    font-size: 13px;
+                    i.fa-thumbs-down{
+                      font: normal normal normal 15px/1 FontAwesome;
+                      color: #fc4c59;
+                      &:before{
+                        content: "\f088";
+                      }
+                    }
+                  }
+                  .cld-dislike-count-wrap{
+                    color: #fc4c59;
+                  }
+                }
+              }
+              .fl-share-contain{
+                display: inline-block;
+                position: absolute;
+                right: 100px;
+                .fl-post-share-contain{
+                  position: relative;
+                  a.fl-share{
+                    text-align: center;
+                    position: relative;
+                    left: 0;
+                    right: 0;
+                    display: block;
+                    width: 30px;
+                    height: 30px;
+                    border: 1px solid #32297b;
+                    border-radius: 50%;
+                    i{
+                      border: none;
+                      color: #32297b;
+                      font-size: 12px;
+                      vertical-align: middle;
+                      margin-top: -2px;
+                    }
+                  }
+                  .fl-share-buttons-contain{
+                    text-align: center;
+                    transition: all 0.3s;
+                    height: 0px;
+                    overflow: hidden;
+                    position: absolute;
+                    left: -180px;
+                    top: -15px;
+                    .fl--share-icons-contain{
+                      display: inline-block;
+                      padding: 10px 15px;
+                      background: #fc4c59;
+                      width: 55px;
+                      i{
+                        color: #fff;
+                        &:hover{
+                          opacity: .8;
+                          transition: all .3s;
+                        }
+                      }
+                    }
+                  }
+                  .active{
+                    height: fit-content;
+                    transition: all 0.3s;
+                    position: absolute;
+                    left: -230px;
+                    top: -25px;
+                    width: fit-content;
+                    margin: auto;
+                    padding: 15px;
+                    z-index: 9;
+                    display: flex;
+                    &:before {
+                      content: '';
+                      position: absolute;
+                      border: 10px solid transparent;
+                      border-left: 11px solid #fc4c59;
+                      top: 28px;
+                      right: -6px;
+                      width: fit-content;
+                      margin: auto;
+                    }
+                  }
+
+                  &:after{
+                    content: '';
+                    position: absolute;
+                    width: 120px;
+                    height: 20px;
+                    left: 0;
+                    right: 0;
+                    padding: 0;
+                    margin-left: auto;
+                    margin-right: auto;
+                    top: 53px;
+                    z-index: -1;
+                  }
+                }
+
+              }
+
+            }
+          }
+        }
+        .comment--reply-wrap{
+          text-align: left;
+          text-transform: uppercase;
+          font-size: 14px;
+          padding-right: 30px;
+          margin-top: 15px;
+          line-height: 1;
+          margin-left: 95px;
+          a.comment-reply-link{
+            display: inline-block;
+            color: #222222;
+            position: relative;
+            transition: color .2s ease-out;
+            font-weight: 600;
+            &:before{
+              content: '';
+              width: 66%;
+              position: absolute;
+              height: 1.5px;
+              bottom: -2px;
+              background: #fc4c59;
+              z-index: 0;
+              transform-origin: right;
+              transition: transform .2s ease-out;
+              left: 0;
+            }
+            &:after{
+              content: '';
+              background: url("../images/arrow_comment.png");
+              height: 9px;
+              width: 16px;
+              overflow: hidden;
+              position: relative;
+              transition: width .3s;
+              display: inline-flex;
+              margin-left: 10px;
+            }
+            &:hover{
+              &:before{
+                transform: scaleX(0);
+                transform-origin: right;
+              }
+              &:after{
+                transform: scaleX(1);
+                transform-origin: left;
+              }
+            }
+          }
+          a.need-membership-to-reply{
+            display: inline-block;
+            color: #222222;
+            position: relative;
+            transition: color .2s ease-out;
+            font-weight: 600;
+            &:before{
+              content: '';
+              width: 100%;
+              position: absolute;
+              height: 1.5px;
+              bottom: -2px;
+              background: #fc4c59;
+              z-index: 0;
+              transform-origin: right;
+              transition: transform .2s ease-out;
+              left: 0;
+            }
+            &:hover{
+              &:before{
+                transform: scaleX(0);
+                transform-origin: right;
+              }
+              &:after{
+                transform: scaleX(1);
+                transform-origin: left;
+              }
+            }
+          }
+          span.comment-reply-link-span{
+            color: #fc4c59;
+            position: relative;
+            transition: color .2s ease-out;
+            font-weight: 600;
+            &:after{
+              content: '';
+              background: url("../images/arrow_comment.png");
+              height: 9px;
+              width: 16px;
+              overflow: hidden;
+              position: relative;
+              transition: width .3s;
+              display: inline-flex;
+              margin-left: 10px;
+            }
+          }
+        }
+        .comment{
+          padding-left: 0px;
+          border: 0px;
+          margin-bottom: 0px;
+          padding-top: 30px;
+          padding-bottom: 0px;
+          .comment-container{
+            .fl-reply-from{
+              font-size: 15px;
+              display: block;
+              font-weight: 600;
+              margin-bottom: 25px;
+              //margin-top: 25px;
+              span{
+                color: #32297b;
+              }
+            }
+            .comment-avatar{
+              border-right: 4px #32297b solid;
+              margin-right: 35px;
+            }
+            .comment-meta {
+              .comments--rating-wrapper {
+                display: none;
+              }
+
+              .comment-moderation {
+                .fl-review-title {
+                  display: none;
+                }
+
+                .cld-like-dislike-wrap {
+                  display: none;
+                }
+
+                .fl-review-content {
+                  display: none;
+                }
+
+                .fl-share-contain {
+                  display: none;
+                }
+
+              }
+            }
+            }
+          .comment--reply-wrap{
+            text-align: left;
+            text-transform: uppercase;
+            font-size: 14px;
+            padding-right: 30px;
+            margin-top: 15px;
+            line-height: 1;
+            margin-left: 135px;
+            a.comment-reply-link{
+              display: inline-block;
+              color: #222222;
+              position: relative;
+              transition: color .2s ease-out;
+              font-weight: 600;
+              &:before{
+                content: '';
+                width: 66%;
+                position: absolute;
+                height: 1.5px;
+                bottom: -2px;
+                background: #fc4c59;
+                z-index: 0;
+                transform-origin: right;
+                transition: transform .2s ease-out;
+                left: 0;
+              }
+              &:after{
+                content: '';
+                background: url("../images/arrow_comment.png");
+                height: 9px;
+                width: 16px;
+                overflow: hidden;
+                position: relative;
+                transition: width .3s;
+                display: inline-flex;
+                margin-left: 10px;
+              }
+              &:hover{
+                &:before{
+                  transform: scaleX(0);
+                  transform-origin: right;
+                }
+                &:after{
+                  transform: scaleX(1);
+                  transform-origin: left;
+                }
+              }
+            }
+            a.need-membership-to-reply{
+              display: inline-block;
+              color: #222222;
+              position: relative;
+              transition: color .2s ease-out;
+              font-weight: 600;
+              &:before{
+                content: '';
+                width: 100%;
+                position: absolute;
+                height: 1.5px;
+                bottom: -2px;
+                background: #fc4c59;
+                z-index: 0;
+                transform-origin: right;
+                transition: transform .2s ease-out;
+                left: 0;
+              }
+              &:hover{
+                &:before{
+                  transform: scaleX(0);
+                  transform-origin: right;
+                }
+                &:after{
+                  transform: scaleX(1);
+                  transform-origin: left;
+                }
+              }
+            }
+            span.comment-reply-link-span{
+              color: #fc4c59;
+              position: relative;
+              transition: color .2s ease-out;
+              font-weight: 600;
+              &:after{
+                content: '';
+                background: url("../images/arrow_comment.png");
+                height: 9px;
+                width: 16px;
+                overflow: hidden;
+                position: relative;
+                transition: width .3s;
+                display: inline-flex;
+                margin-left: 10px;
+              }
+            }
+          }
+        }
+        .comment-respond{
+          margin-top: 40px;
+        }
+      }
+      .comment-respond{
+        .fl-comment-form{
+          .logged-in-as{
+            a{
+              color: #222;
+              &:hover{
+                color: #fc4c59;
+              }
+            }
+          }
+          .author-name{
+            width: 50%;
+          }
+          .author-email{
+            width: 50%;
+          }
+          .comment-form-rating, .fl-employers-comment-wrap{
+            display: none;
+          }
+          .author_comment_title{
+            display: none;
+          }
+        }
+      }
+    }
+    .fl-form-review-reply{
+      .fl-comment-form{
+        .logged-in-as{
+          a{
+            color: #222222;
+            transition: all .3s ease-in-out;
+            &:hover{
+              color: #de4313;
+              transition: all .3s ease-in-out;
+            }
+          }
+        }
+        .comment-form-rating{
+          padding: 0px;
+          order: 1;
+        }
+        .fl-employers-comment-wrap{
+          order: 1;
+        }
+        .author-name{
+          width: 50%;
+          order: 3;
+        }
+        .author-email{
+          width: 50%;
+          order: 3;
+        }
+        .author-comment{
+          order: 3;
+        }
+        .author_comment_title{
+          width: 100%;
+          order: 2;
+        }
+        .comment-field-wrapper{
+          .author-website{
+            width: 100%;
+            padding-right: 0px;
+          }
+        }
+      }
+      .comment-respond{
+        .comment-reply-title{
+          //font-size: 32px;
+        }
+      }
+    }
+  }
+  .fl-places-sidebar-contain{
+    border: 1px #ededed solid;
+    height: fit-content;
+    padding: 0px;
+    position: relative;
+    .fl-places-map-contain{
+      #fl-places-map{
+        height: 320px;
+      }
+    }
+    .fl-places-meta{
+      padding: 60px 40px;
+
+      .fl-places-meta-title{
+        font-size: 26px;
+        font-weight: 400;
+        color: #222222;
+        margin-bottom: 25px;
+      }
+      .fl-places-pros-cons-content{
+        display: block;
+        .tmreviews_review_pros_contain{
+          .tmreviews_review_pros{
+            padding-right: 25px;
+            padding-left: 25px;
+            &:first-child{
+              padding-top: 25px;
+            }
+            &:last-child{
+              padding-bottom: 25px;
+            }
+          }
+        }
+        .tmreviews_review_cons_contain{
+          .tmreviews_review_cons{
+            padding-right: 25px;
+            padding-left: 25px;
+            &:first-child{
+              padding-top: 25px;
+            }
+            &:last-child{
+              padding-bottom: 25px;
+            }
+          }
+        }
+        .tmreviews_review_pros, .tmreviews_review_cons{
+          display: block;
+          width: 100%;
+          margin-bottom: 25px;
+        }
+        .fl-pros-content, .fl-cons-content{
+          display: block;
+
+        }
+        .fl-pros-content{
+          &:before{
+            content: "\f196";
+            color: #9ACC55;
+            margin-right: 5px;
+            font: normal normal normal 14px/1 FontAwesome;
+          }
+        }
+        .fl-cons-content{
+          &:before{
+            content: "\f147";
+            color: #e74c3c;
+            margin-right: 5px;
+            font: normal normal normal 14px/1 FontAwesome;
+          }
+        }
+      }
+      .fl-places-meta-content{
+        p{
+          font-size: 15px;
+          color: #222222;
+          line-height: 28px;
+          padding-bottom: 40px;
+          background-image: linear-gradient(to right, #383838 10%, rgba(255, 255, 255, 0) 0%);
+          background-position: bottom;
+          background-size: 10px 1px;
+          background-repeat: repeat-x;
+          margin-bottom: 35px;
+        }
+      }
+      .fl-places-meta-address-title, .fl-places-meta-phone-title, .fl-places-meta-email-title, .fl-places-meta-website-title{
+        color: #32297b;
+        font-size: 15px;
+        font-weight: 600;
+      }
+      .fl-places-meta-address, .fl-places-meta-phone, .fl-places-meta-email, .fl-places-meta-website{
+        display: block;
+        margin-bottom: 25px;
+      }
+      .fl-places-meta-website{
+        margin-bottom: 35px;
+      }
+      .fl-places-socials-conianer{
+        background-image: linear-gradient(to right, #333 10%, rgba(255, 255, 255, 0) 0%);
+        background-position: top;
+        background-size: 10px 1px;
+        background-repeat: repeat-x;
+        margin-bottom: 0px;
+        padding-top: 35px;
+        .fl-places-social{
+          i{
+            font-size: 16px;
+            color: #32297b;
+            transition: all .3s ease-in-out;
+            margin-right: 20px;
+            &:hover{
+              color: #de4313;
+              transition: all .3s ease-in-out;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.comment-form-rating{
+  margin-bottom: 20px;
+  .fl-place-raing-number{
+    font-size: 16px;
+    font-weight: 700;
+  }
+  p.stars{
+    margin-left: 0;
+    margin-right: 15px;
+  }
+  p.stars a:before,
+  p.stars a:hover~a:before {
+    content: "\f006";
+    width: 15px!important;
+    height: 15px!important;
+    margin-right: 2px!important;
+    color: #f0a837;
+  }
+
+  p.stars a {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    text-indent: -999em;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 2px;
+    top: 7px;
+  }
+  p.stars a:before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-indent: 0
+  }
+  p.stars.selected a.active:before,
+  p.stars:hover a:before {
+    content: "\f005";
+    color: #f0a837;
+  }
+  p.stars.selected a.active~a:before {
+    content: "\f006";
+    color: #f0a837;
+  }
+  p.stars.selected a:not(.active):before {
+    content: "\f005";
+    color: #f0a837;
+  }
+
+  .star-rating {
+    float: none;
+    overflow: hidden;
+    position: relative;
+    height: 1em;
+    line-height: 1;
+    font-size: 1em;
+    width: 5.4em;
+    font: normal normal normal 14px/1 FontAwesome;
+  }
+
+  .star-rating:before {
+    content: "\f005";
+    color: #f0a837;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute
+  }
+
+  .star-rating span {
+    overflow: hidden;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 1.5em
+  }
+
+  .star-rating span:before {
+    content: "\f005";
+    top: 0;
+    position: absolute;
+    left: 0;
+    color: orange;
+  }
+
+  .tab-content-product-rating .star-rating {
+    margin: .5em 4px 0 0;
+    float: left
+  }
+
+  .products .star-rating {
+    display: none;
+    margin: 0 0 .5em;
+    float: none
+  }
+
+  .hreview-aggregate .star-rating {
+    margin: 10px 0 0
+  }
+
+}
+
+
+.author_comment_pros_cons{
+  width: 100%;
+  position: relative;
+  order: 2;
+  .author_comment_pros_cons_contain{
+    display: flex;
+    position: relative;
+    .fl-pros{
+      margin-right: 10px;
+    }
+    input{
+      width: 50%;
+      position: relative;
+    }
+    .comment_pros_cons_del{
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: #f0487a;
+      left: -5px;
+      top: -5px;
+      cursor: pointer;
+      z-index: 1;
+      &:before{
+        content: '-';
+        color: #fff;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: fit-content;
+        height: fit-content;
+      }
+    }
+  }
+  .comment_pros_cons_add{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #f0487a;
+    left: -5px;
+    top: -5px;
+    cursor: pointer;
+    z-index: 1;
+    &:before{
+      content: '+';
+      color: #fff;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      width: fit-content;
+      height: fit-content;
+    }
+  }
+
+}
+
+@media (max-width: 768px) {
+  .fl-places-header{
+    padding-top: 160px;
+  }
+  .fl-places-header .container{
+    display: block;
+  }
+  html .fl-places-header .fl-places-left{
+    width: 100%;
+  }
+  .fl-places-header .fl-places-left .fl-places-logo-contain{
+    display: none;
+  }
+  .fl-places-header .fl-places-left .fl-places-title-contain{
+    margin: 0 auto;
+  }
+  .fl-places-header .fl-places-left .fl-places-title-contain .fl-places-subtitle{
+    display: none;
+  }
+  html .fl-places-header .fl-places-left .fl-places-title-contain .fl-places-title{
+    font-size: 30px;
+  }
+  .fl-places-header .fl-places-left .fl-places-title-contain .fl-places-show{
+    display: none;
+  }
+  .fl-places-header .fl-places-right{
+    width: 100%!important;
+    text-align: center;
+    margin: 0px 0;
+  }
+
+  .fl-places-content{
+    display: flex;
+    flex-flow: column;
+    .col-8{
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 100%;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+      order: 2;
+    }
+    .col-4{
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 100%;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+      order: 1;
+    }
+  }
+  .fl-places-content .fl-places-reviews-contain .fl-places-gallery .fl-place-gallery-slider .slick-list img{
+    height: unset;
+  }
+  html .fl-places-content .fl-places-reviews-contain .comments-list .comment{
+    padding: 20px 20px;
+  }
+  .fl-places-content .fl-places-reviews-contain .comments-list .comment .comment-container{
+    display: block;
+  }
+  .fl-places-content .fl-places-reviews-contain .comments-list .comment .comment-container .comment-avatar{
+    padding-right: 0px;
+  }
+  .comments-container .comments-list .fl-comment .comment-container .comment-meta{
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  html .fl-places-content .fl-places-reviews-contain .comments-list .comment .comment--reply-wrap{
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .fl-places-content .fl-places-reviews-contain .comments-list .comment .comment{
+    padding-right: 0px;
+  }
+  .fl-places-content .fl-places-reviews-contain .comments-list .comment .comment .comment-container .comment-avatar{
+    border-left: 4px #32297b solid;
+    margin-left: 35px;
+    border-right: 0px;
+    margin-right: 0px;
+  }
+  .fl-places-content .fl-places-reviews-contain .comments-list .comment .comment .comment-container .comment-meta{
+    .comment-moderation{
+      border-left: 4px #32297b solid;
+      margin-left: 35px;
+      padding-left: 35px;
+      .fl-reply-from{
+        font-size: 10px;
+      }
+      p{
+        font-size: 10px;
+      }
+    }
+  }
+  .fl-places-content .fl-places-reviews-contain .comments-list .comment .comment{
+    .comment--reply-wrap{
+      margin-left: 35px!important;
+    }
+  }
+  .fl-places-content .fl-places-reviews-contain .comments-list .comment .comment-container .comment-meta .comments--rating-wrapper{
+    display: block;
+  }
+  .fl-places-content .fl-places-reviews-contain .comments-list .comment .comment-container .comment-meta .comment-moderation .cld-like-dislike-wrap{
+    float: left;
+  }
+}
+
+@media (max-width: 400px) {
+  .fl-places-header{
+    padding-top: 160px;
+  }
+  .fl-places-header .container{
+    display: block;
+  }
+  html .fl-places-header .fl-places-left{
+    width: 100%;
+  }
+  .fl-places-header .fl-places-left .fl-places-logo-contain{
+    display: none;
+  }
+  .fl-places-header .fl-places-left .fl-places-title-contain{
+    margin: 0 auto;
+  }
+  .fl-places-header .fl-places-left .fl-places-title-contain .fl-places-subtitle{
+    display: none;
+  }
+  html .fl-places-header .fl-places-left .fl-places-title-contain .fl-places-title{
+    font-size: 30px;
+  }
+  .fl-places-header .fl-places-left .fl-places-title-contain .fl-places-show{
+    display: none;
+  }
+  .fl-places-header .fl-places-right{
+    width: 100%!important;
+    text-align: center;
+    margin: 0px 0;
+  }
+
+  .fl-places-content{
+    display: flex;
+    flex-flow: column;
+    .col-8{
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 100%;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+      order: 2;
+    }
+    .col-4{
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 100%;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+      order: 1;
+    }
+  }
+  .fl-places-content .fl-places-reviews-contain .fl-places-gallery .fl-place-gallery-slider .slick-list img{
+    height: unset;
+  }
+  html .fl-places-content .fl-places-reviews-contain .comments-list .comment{
+    padding: 20px 20px;
+  }
+  .fl-places-content .fl-places-reviews-contain .comments-list .comment .comment-container{
+    display: block;
+  }
+  .fl-places-content .fl-places-reviews-contain .comments-list .comment .comment-container .comment-avatar{
+    padding-right: 0px;
+  }
+  .comments-container .comments-list .fl-comment .comment-container .comment-meta{
+    max-width: 100%!important;
+    margin-top: 20px;
+  }
+  html .fl-places-content .fl-places-reviews-contain .comments-list .comment .comment--reply-wrap{
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .fl-places-content .fl-places-reviews-contain .comments-list .comment .comment{
+    padding-right: 0px;
+  }
+  .fl-places-content .fl-places-reviews-contain .comments-list .comment .comment .comment-container .comment-avatar{
+    border-left: 4px #32297b solid;
+    margin-left: 35px;
+    border-right: 0px;
+    margin-right: 0px;
+  }
+  .fl-places-content .fl-places-reviews-contain .comments-list .comment .comment .comment-container .comment-meta{
+    .comment-moderation{
+      border-left: 4px #32297b solid;
+      margin-left: 35px;
+      padding-left: 35px;
+      .fl-reply-from{
+        font-size: 10px;
+      }
+      p{
+        font-size: 10px;
+      }
+    }
+  }
+  .fl-places-content .fl-places-reviews-contain .comments-list .comment .comment{
+    .comment--reply-wrap{
+      margin-left: 35px!important;
+    }
+  }
+  .fl-places-content .fl-places-reviews-contain .comments-list .comment .comment-container .comment-meta .comments--rating-wrapper{
+    display: block;
+  }
+  .fl-places-content .fl-places-reviews-contain .comments-list .comment .comment-container .comment-meta .comment-moderation .cld-like-dislike-wrap{
+    float: left;
+  }
+}
+
+@media (max-width: 360px) {
+  .fl-places-header{
+    padding-top: 160px;
+  }
+  .fl-places-header .container{
+    display: block;
+  }
+  html .fl-places-header .fl-places-left{
+    width: 100%;
+  }
+  .fl-places-header .fl-places-left .fl-places-logo-contain{
+   display: none;
+  }
+  .fl-places-header .fl-places-left .fl-places-title-contain{
+    margin: 0 auto;
+  }
+  .fl-places-header .fl-places-left .fl-places-title-contain .fl-places-subtitle{
+    display: none;
+  }
+  html .fl-places-header .fl-places-left .fl-places-title-contain .fl-places-title{
+    font-size: 30px;
+  }
+  .fl-places-header .fl-places-left .fl-places-title-contain .fl-places-show{
+    display: none;
+  }
+  .fl-places-header .fl-places-right{
+    width: 100%!important;
+    text-align: center;
+    margin: 0px 0;
+  }
+
+  .fl-places-content{
+    display: flex;
+    flex-flow: column;
+    .col-8{
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 100%;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+      order: 2;
+    }
+    .col-4{
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 100%;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+      order: 1;
+    }
+  }
+  .fl-places-content .fl-places-reviews-contain .fl-places-gallery .fl-place-gallery-slider .slick-list img{
+    height: unset;
+  }
+  html .fl-places-content .fl-places-reviews-contain .comments-list .comment{
+    padding: 20px 20px;
+  }
+  .fl-places-content .fl-places-reviews-contain .comments-list .comment .comment-container{
+    display: block;
+  }
+  .fl-places-content .fl-places-reviews-contain .comments-list .comment .comment-container .comment-avatar{
+    padding-right: 0px;
+  }
+  .comments-container .comments-list .fl-comment .comment-container .comment-meta{
+    max-width: 100%!important;
+    margin-top: 20px;
+  }
+  html .fl-places-content .fl-places-reviews-contain .comments-list .comment .comment--reply-wrap{
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .fl-places-content .fl-places-reviews-contain .comments-list .comment .comment{
+    padding-right: 0px;
+  }
+  .fl-places-content .fl-places-reviews-contain .comments-list .comment .comment .comment-container .comment-avatar{
+    border-left: 4px #32297b solid;
+    margin-left: 35px;
+    border-right: 0px;
+    margin-right: 0px;
+  }
+  .fl-places-content .fl-places-reviews-contain .comments-list .comment .comment .comment-container .comment-meta{
+    .comment-moderation{
+      border-left: 4px #32297b solid;
+      margin-left: 35px;
+      padding-left: 35px;
+      .fl-reply-from{
+        font-size: 10px;
+      }
+      p{
+        font-size: 10px;
+      }
+    }
+  }
+  .fl-places-content .fl-places-reviews-contain .comments-list .comment .comment{
+    .comment--reply-wrap{
+      margin-left: 35px!important;
+    }
+  }
+  .fl-places-content .fl-places-reviews-contain .comments-list .comment .comment-container .comment-meta .comments--rating-wrapper{
+    display: block;
+  }
+  .fl-places-content .fl-places-reviews-contain .comments-list .comment .comment-container .comment-meta .comment-moderation .cld-like-dislike-wrap{
+    float: left;
+  }
+}

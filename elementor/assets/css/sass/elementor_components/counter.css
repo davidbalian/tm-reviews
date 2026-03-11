@@ -1,0 +1,182 @@
+.image-caption {
+  position: relative;
+  padding: 20px;
+  background: #fff;
+  -webkit-box-shadow: 0 0 20px 2.5px rgba(18, 53, 87, 0.12);
+  box-shadow: 0 0 20px 2.5px rgba(18, 53, 87, 0.12);
+  width: 215px;
+  height: 109px;
+  padding: 22px 22px 22px 26px;
+  display: block; }
+
+.image-caption .ico-size {
+  color: #222; }
+
+.image-caption span {
+  font-weight: 500; }
+
+.image-caption .counter {
+  color: #e64646;
+  font-weight: bold;
+  font-size: 35px; }
+
+.home-card_icon-flex {
+  overflow: hidden;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  position: relative; }
+
+.home-card_icon-flex .svg45 {
+  width: 65px;
+  height: 13px;
+  position: absolute;
+  right: 0;
+  top: 160px; }
+
+.home-card_icon .ico-size {
+  font-size: 48px;
+  margin: 7px 15px 0 0; }
+
+.home-card_icon .icon-count {
+  font-size: 34px;
+  color: #e64646;
+  font-family: inherit !important;
+  width: fit-content;
+  display: inline-block;
+  font-weight: 600;
+  padding-top: 3px; }
+
+.home-card_icon .count_suff {
+  font-size: 34px;
+  color: #e64646;
+  font-family: inherit !important;
+  width: fit-content;
+  display: inline-block;
+  font-weight: 600;
+  padding-top: 3px;
+  margin-left: -4px; }
+
+.home-card_icon {
+  display: flex;
+  padding-bottom: 15px;
+  float: left;
+  overflow: hidden;
+  width: 215px; }
+  .home-card_icon svg {
+    width: 48px;
+    margin: 7px 15px 0 0; }
+
+.home-card_icon .icon-count-text {
+  font-size: 14px;
+  font-family: inherit !important;
+  display: block; }
+
+@media screen and (max-width: 1200px) {
+  .home-card_icon-flex {
+    padding-top: 150px; } }
+@media screen and (max-width: 1000px) {
+  html .home-card_icon-flex {
+    padding-top: 15px; } }
+@media screen and (max-width: 768px) {
+  html .home-card_icon-flex {
+    padding-top: 25px;
+    padding-bottom: 20px; } }
+.home-card_icon-flex:after {
+  content: '';
+  background: url(img/svg/object-orange.svg) no-repeat center;
+  position: absolute;
+  width: 85px;
+  height: 48px;
+  right: 0;
+  bottom: 0; }
+
+.info-about .content .link__template {
+  max-width: 290px;
+  width: 100%;
+  height: 60px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-family: inherit;
+  font-weight: 700;
+  background-color: #de2929;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  border: none;
+  margin: 0; }
+
+.info-about .content .link__template .text {
+  width: 100%;
+  text-align: center; }
+
+.info-about .content .link__template span {
+  display: block;
+  width: 80px;
+  background-color: #ab1212;
+  height: 60px; }
+
+.info-about .content .link__template span svg {
+  fill: #fff; }
+
+.info-about .content .link__template:hover {
+  color: #fff;
+  -webkit-box-shadow: 0 0 20px 2.5px rgba(18, 53, 87, 0.12);
+  box-shadow: 0 0 20px 2.5px rgba(18, 53, 87, 0.12); }
+
+.info-about.box-count {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  background: #f6f6f6;
+  -webkit-transition: all .3s;
+  transition: all .3s; }
+
+.info-about.box-count:hover {
+  -webkit-box-shadow: 0px 10px 19px -11px rgba(0, 0, 0, 0.61);
+  box-shadow: 0px 10px 19px -11px rgba(0, 0, 0, 0.61); }
+
+.info-about.box-count.odd {
+  background: #F0F0F0; }
+
+.row-info-about {
+  padding-top: 60px; }
+
+.info-about .box-count.f0f0f0 {
+  background-color: #F0F0F0 !important; }
+
+.info-about.box-count .counter {
+  font-size: 80px;
+  font-family: "Smooch";
+  color: #0cbcee;
+  line-height: 1.2; }
+
+.info-about.box-count .counter + span {
+  margin: 0;
+  margin-bottom: 20px;
+  max-width: 15px; }
+
+.info-about.box-count .counter ~ p {
+  font-size: 13px;
+  color: #222222;
+  font-weight: 500;
+  text-transform: uppercase; }
+
+@media screen and (max-width: 768px) {
+  html .row-info-about {
+    padding-top: 37px; } }
+.shape-1 {
+  fill: #ffc248;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.elementor-widget-templines-counter .count_suff {
+  margin-left: -4px; }
+
+/*# sourceMappingURL=counter.css.map */

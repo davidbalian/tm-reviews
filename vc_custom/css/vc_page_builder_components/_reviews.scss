@@ -1,0 +1,336 @@
+.fl-reviews-slider{
+  .fl-places-slide{
+    float: left;
+    padding: 40px;
+    margin: 20px 15px;
+    box-shadow: 0 10px 35px rgba(0,0,0,.1);
+    opacity: .3;
+    width: 360px;
+    .fl-places-slide-top{
+      display: flex;
+      background-image: linear-gradient(to right, #333 10%, rgba(255, 255, 255, 0) 0%);
+      background-position: bottom;
+      background-size: 10px 1px;
+      background-repeat: repeat-x;
+      padding-bottom: 25px;
+      .fl-places-author-avatar{
+        width: 100%;
+        height: 60px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 20px;
+        max-width: 60px;
+        img{
+          width: 60px;
+          height: 60px;
+          margin: 0 auto;
+        }
+      }
+      .fl-places-average-meta{
+        .fl-average-icons{
+          i{
+            font: normal normal normal 14px/1 FontAwesome;
+            font-weight: 400;
+            color: #f0a837;
+          }
+        }
+        .fl-average-text{
+          display: block;
+          font-size: 13px;
+          color: #222222;
+        }
+        .fl-places-average-cat{
+          margin-top: 15px;
+          a{
+            font-size: 16px;
+            color: #222222;
+            font-weight: 400;
+            &:hover{
+              color: #de4313;
+            }
+          }
+        }
+      }
+    }
+
+    .fl-places-slide-main{
+      margin-top: 35px;
+      margin-bottom: 40px;
+      .fl-review-title{
+        font-size: 18px;
+        color: #32297b;
+        font-weight: 600;
+        margin-bottom: 18px;
+        display: block;
+      }
+      .fl-review-author-contain{
+        font-size: 14px;
+        margin-bottom: 40px;
+        .fl-review-author-name{
+          color: #222222;
+        }
+        .fl-reviewed{
+          color: #858585;
+        }
+        a{
+          color: #fc4c59;
+          margin-left: 18px;
+          font-weight: 400;
+        }
+      }
+    }
+
+    .fl-places-slide-bottom{
+      display: flex;
+      .fl-review-button{
+        padding: 9px 17px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        background: #32297b;
+        border-radius: 25px;
+        width: 50%;
+        display: inline-table;
+        &:hover{
+          opacity: .8;
+          transition: all .3s;
+        }
+      }
+      .fl-review-date-contain{
+        display: block;
+        text-align: right;
+        width: 50%;
+        .fl-review-date{
+          display: block;
+          font-size: 14px;
+          color: #222222;
+        }
+        .fl-review-date-text{
+          font-size: 12px;
+          color: #858585;
+        }
+      }
+    }
+  }
+  .slick-center{
+    opacity: 1;
+  }
+  .slick-list{
+    overflow: hidden;
+  }
+  .slick-dots{
+    list-style: unset;
+    display: flex;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 30px;
+    li{
+      color: #dddddd;
+      button{
+        display: none;
+      }
+    }
+    li.slick-active{
+      color: #fc4c59;
+    }
+  }
+}
+
+.fl-reviews-style-two, .fl-main-container{
+  .fl-row{
+    display: flex;
+  }
+  .fl-places-grid{
+    padding: 40px;
+    margin: 20px 15px;
+    box-shadow: 0 10px 35px rgba(0,0,0,.1);
+    .fl-places-slide-top{
+      display: flex;
+      background-image: linear-gradient(to right, #333 10%, rgba(255, 255, 255, 0) 0%);
+      background-position: bottom;
+      background-size: 10px 1px;
+      background-repeat: repeat-x;
+      padding-bottom: 25px;
+      .fl-places-author-avatar{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 20px;
+        img{
+          width: 60px;
+          height: 60px;
+        }
+      }
+      .fl-places-average-meta{
+        .fl-average-icons{
+          i{
+            color: #f0a837;
+          }
+        }
+        .fl-average-text{
+          display: block;
+          font-size: 13px;
+          color: #222222;
+        }
+        .fl-places-average-cat{
+          margin-top: 15px;
+          a{
+            font-size: 16px;
+            color: #222222;
+            font-weight: 400;
+            &:hover{
+              color: #de4313;
+            }
+          }
+        }
+      }
+    }
+
+    .fl-places-slide-main{
+      margin-top: 35px;
+      margin-bottom: 40px;
+      .fl-review-title{
+        font-size: 18px;
+        color: #32297b;
+        font-weight: 600;
+        margin-bottom: 18px;
+        display: block;
+      }
+      .fl-review-author-contain{
+        font-size: 14px;
+        margin-bottom: 40px;
+        .fl-review-author-name{
+          a{
+            color: #222222;
+            margin-left: 0px;
+
+          }
+        }
+        .fl-reviewed{
+          color: #858585;
+        }
+        a{
+          color: #fc4c59;
+          font-weight: 400;
+        }
+      }
+    }
+
+    .fl-places-slide-bottom{
+      display: flex;
+      .fl-review-button{
+        padding: 9px 17px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        background: #32297b;
+        border-radius: 25px;
+        display: inline-table;
+        &:hover{
+          opacity: .8;
+          transition: all .3s;
+        }
+      }
+      .fl-review-date-contain{
+        display: block;
+        text-align: right;
+        width: 60%;
+        .fl-review-date{
+          display: block;
+          font-size: 14px;
+          color: #222222;
+        }
+        .fl-review-date-text{
+          font-size: 12px;
+          color: #858585;
+        }
+      }
+    }
+
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  .fl-reviews-slider .fl-places-slide{
+    padding: 20px!important;
+    margin: 5px 5px!important;
+  }
+  .fl-reviews-slider .fl-places-slide .fl-places-slide-top{
+    display: block!important;
+  }
+  .fl-reviews-slider .fl-places-slide .fl-places-slide-top .fl-places-author-avatar{
+    margin-bottom: 20px!important;
+  }
+  .fl-reviews-slider .fl-places-slide .fl-places-slide-bottom{
+    display: block!important;
+  }
+  .fl-reviews-slider .fl-places-slide .fl-places-slide-bottom .fl-review-button{
+    width: 100%!important;
+    text-align: center!important;
+  }
+  .fl-reviews-slider .fl-places-slide .fl-places-slide-bottom .fl-review-date-contain{
+    width: 100%!important;
+    text-align: center!important;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .fl-reviews-slider .fl-places-slide .fl-places-slide-top .fl-places-average-meta .fl-average-text{
+    position: unset!important;
+  }
+  .fl-reviews-slider .fl-places-slide{
+    padding: 20px!important;
+    margin: 5px 5px!important;
+  }
+  .fl-reviews-slider .fl-places-slide .fl-places-slide-top{
+    display: block!important;
+  }
+  .fl-reviews-slider .fl-places-slide .fl-places-slide-top .fl-places-author-avatar{
+    margin-bottom: 20px!important;
+  }
+  .fl-reviews-slider .fl-places-slide .fl-places-slide-bottom{
+    display: block!important;
+  }
+  .fl-reviews-slider .fl-places-slide .fl-places-slide-bottom .fl-review-button{
+    width: 100%!important;
+    text-align: center!important;
+  }
+  .fl-reviews-slider .fl-places-slide .fl-places-slide-bottom .fl-review-date-contain{
+    width: 100%!important;
+    text-align: center!important;
+  }
+
+}
+
+@media (max-width: 360px) {
+  .fl-reviews-slider .fl-places-slide .fl-places-slide-top .fl-places-average-meta .fl-average-text{
+    position: unset!important;
+  }
+  .fl-reviews-slider .fl-places-slide{
+    padding: 35px!important;
+    margin: 5px 5px!important;
+  }
+  .fl-reviews-slider .fl-places-slide .fl-places-slide-top{
+    display: block!important;
+  }
+  .fl-reviews-slider .fl-places-slide .fl-places-slide-top .fl-places-author-avatar{
+    margin-bottom: 20px!important;
+  }
+  .fl-reviews-slider .fl-places-slide .fl-places-slide-bottom{
+    display: block!important;
+  }
+  .fl-reviews-slider .fl-places-slide .fl-places-slide-bottom .fl-review-button{
+    width: 100%!important;
+    text-align: center!important;
+  }
+  .fl-reviews-slider .fl-places-slide .fl-places-slide-bottom .fl-review-date-contain{
+    width: 100%!important;
+    text-align: center!important;
+  }
+
+}

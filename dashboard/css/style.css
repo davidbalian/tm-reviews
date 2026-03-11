@@ -1,0 +1,124 @@
+.menu-icon-places .wp-menu-image img{
+    padding: 5px 0 0 0!important;
+}
+
+/* Улучшенные стили для страницы настроек places (Improved styles for places settings page) */
+.tmreview-contain {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    max-width: 900px;
+    margin-top: 20px;
+}
+
+.tmreview-contain h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #23282d;
+    border-bottom: 2px solid #2271b1;
+    padding-bottom: 15px;
+}
+
+/* Группировка настроек (Settings grouping) */
+.tmreviews-option-group {
+    background-color: #f9f9f9;
+    border-left: 4px solid #2271b1;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 0 4px 4px 0;
+}
+
+.tmreviews-option-group h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #23282d;
+}
+
+.tmreviews-form .form_options {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.tmreviews-form .form_options:last-child {
+    border-bottom: none;
+}
+
+.tmreviews-form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #23282d;
+    font-size: 14px;
+}
+
+.tmreviews-form input[type="text"],
+.tmreviews-form input[type="number"],
+.tmreviews-form select,
+.tmreviews-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+    max-width: 500px;
+}
+
+.tmreviews-form input[type="text"]:focus,
+.tmreviews-form input[type="number"]:focus,
+.tmreviews-form select:focus,
+.tmreviews-form textarea:focus {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #2271b1;
+    outline: none;
+}
+
+.tmreviews-form button,
+.tmreviews-form input[type="submit"] {
+    background-color: #2271b1;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.tmreviews-form button:hover,
+.tmreviews-form input[type="submit"]:hover {
+    background-color: #135e96;
+}
+
+.tmreviews-form input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+/* Стили для опций (Styles for options) */
+.tmreviews-form select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="6"><path d="M0,0 L12,0 L6,6 Z" fill="%23555"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 30px;
+}
+
+/* Адаптивные стили (Responsive styles) */
+@media screen and (max-width: 782px) {
+    .tmreview-contain {
+        padding: 15px;
+    }
+    
+    .tmreviews-form input[type="text"],
+    .tmreviews-form input[type="number"],
+    .tmreviews-form select,
+    .tmreviews-form textarea {
+        max-width: 100%;
+    }
+}

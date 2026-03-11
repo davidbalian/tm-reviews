@@ -1,0 +1,55 @@
+/*
+||======================================================||
+||                                                      ||
+||                  Places Styles                       ||
+||                                                      ||
+||======================================================||
+*/
+
+
+//Components
+.tmreviews_added_notice{
+  z-index: 999999;
+  position: fixed;
+  top: -30%;
+  left: 0;
+  right: 0;
+  padding-top: 17px;
+  min-height: 71px;
+  background-color: #f0487a;
+  opacity: 0;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+  color: #fff;
+  line-height: 36px;
+  text-align: center;
+}
+.tmreviews_added_notice_visible {
+  top: 0;
+  opacity: 1;
+}
+
+//Add Places
+@import "components/_add_place";
+
+//Places Archive
+@import "components/_places_archive";
+
+//Places Single
+@import "components/_places_single";
+
+//User Reviews
+@import "components/_user_reviews";
+@import "components/account_settings";
+
+
+
+
+//VC
+//Places
+@import "vc_page_builder_components/_places";
+
+//Reviews
+@import "vc_page_builder_components/_reviews";

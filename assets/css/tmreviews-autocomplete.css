@@ -1,0 +1,108 @@
+/* Стили для контейнеров */
+.author_comment_pros_cons {
+    margin-bottom: 20px;
+}
+
+.author_comment_pros_cons_contain {
+    display: flex;
+    gap: 20px;
+}
+
+.pros-container,
+.cons-container {
+    flex: 1;
+    position: relative;
+}
+
+/* Стили для полей ввода */
+.fl-pros,
+.fl-cons {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    margin-bottom: 5px;
+}
+
+.fl-pros:focus,
+.fl-cons:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.1);
+}
+
+/* Стили для подсказок */
+.popular-suggestions {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 5px;
+}
+
+.suggestions-title {
+    display: block;
+    padding: 8px 12px;
+    font-size: 12px;
+    color: #666;
+    background: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    border-radius: 4px 4px 0 0;
+}
+
+.popular-suggestions ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.popular-suggestions li {
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 14px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.popular-suggestions li:last-child {
+    border-bottom: none;
+    border-radius: 0 0 4px 4px;
+}
+
+.popular-suggestions li:hover {
+    background: #f8f9fa;
+    padding-left: 16px;
+}
+
+.popular-suggestions li.active {
+    background: #e8f0fe;
+    color: #1a73e8;
+}
+
+/* Стилизация скроллбара */
+.popular-suggestions ul::-webkit-scrollbar {
+    width: 6px;
+}
+
+.popular-suggestions ul::-webkit-scrollbar-track {
+    background: #f5f5f5;
+    border-radius: 0 4px 4px 0;
+}
+
+.popular-suggestions ul::-webkit-scrollbar-thumb {
+    background: #ddd;
+    border-radius: 3px;
+}
+
+.popular-suggestions ul::-webkit-scrollbar-thumb:hover {
+    background: #ccc;
+}
+
+/* Скрываем сообщения о доступных результатах */
+.ui-helper-hidden-accessible {
+    display: none;
+}

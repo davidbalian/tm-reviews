@@ -1,0 +1,40 @@
+.tmreviews-popular-categories {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 20px;
+}
+
+.tmreviews-category-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e0eaf4;
+    padding-bottom: 10px;
+}
+
+
+
+.tmreviews-category-item a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: #222 !important;
+}
+
+.tmreviews-category-name {
+    font-weight: 500;
+}
+
+.tmreviews-category-count {
+    background: #e0eaf4;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 0.9em;
+    color: #666;
+    min-width: 60px;
+    text-align: center;
+}
+
+.tmreviews-category-item a:hover .tmreviews-category-count {
+    background: #e0e0e0;
+}
