@@ -17,8 +17,11 @@ if(isset($_GET['s'])){
     $search_text = '';
 }
 
-if(isset($_GET[tmreviews_get_post_type() . '-category']) && $_GET[tmreviews_get_post_type() . '-category'] != ''){
-    $tax_name = get_term_by('slug', $_GET[tmreviews_get_post_type() . '-category'], tmreviews_get_post_type() . '-category');
+$taxonomy_key = tmreviews_get_post_type() . '-category';
+$category_slug = get_query_var( $taxonomy_key );
+$tax_name = '';
+if ( $category_slug ) {
+    $tax_name = get_term_by( 'slug', $category_slug, $taxonomy_key );
 }
 
 $post_count = get_option('tmreviews_place_count', true);
@@ -42,7 +45,7 @@ if(isset($_GET['auth_id']) && $_GET['auth_id'] != ''){
             array(
                 'taxonomy' => tmreviews_get_post_type() . '-category',
                 'field' => 'slug',
-                'terms' => $_GET[tmreviews_get_post_type() . '-category']
+                'terms' => $category_slug
             )
         ),
     );
@@ -57,7 +60,7 @@ if(isset($_GET['auth_id']) && $_GET['auth_id'] != ''){
             array(
                 'taxonomy' => tmreviews_get_post_type() . '-category',
                 'field' => 'slug',
-                'terms' => $_GET[tmreviews_get_post_type() . '-category']
+                'terms' => $category_slug
             )
         ),
     );
@@ -69,7 +72,7 @@ if(isset($taxomony) && !empty($taxomony)){
     $taxonomy_html .= '<select class="places-tax tmnice-select" name="tax">';
 
     foreach ($taxomony as $t){
-        if(isset($_GET[tmreviews_get_post_type() . '-category']) && $_GET[tmreviews_get_post_type() . '-category'] == $t->slug){
+        if($category_slug == $t->slug){
             $taxonomy_html .= '<option selected value = "'.$t->slug.'">'.$t->name.'</option>';
         } else {
             $taxonomy_html .= '<option value = "'.$t->slug.'">'.$t->name.'</option>';
@@ -109,7 +112,7 @@ $header_bg = gazek_get_theme_mod ('places_archive_page_background_img');
                     </div>
                 <input type="hidden" name="post_type" value="places" />
                 <?php //echo $taxonomy_html;?>
-                <input type="hidden" class="places-tax" name="<?php echo tmreviews_get_post_type() . '-category';?>" value="<?php echo $_GET[tmreviews_get_post_type() . '-category'];?>">
+                <input type="hidden" class="places-tax" name="<?php echo tmreviews_get_post_type() . '-category';?>" value="<?php echo esc_attr( $category_slug ); ?>">
                 <select class="places-order tmnice-select" name="order">
 
                     <?php if(isset($_GET['order']) && $_GET['order'] == 'rate_desc'){?>

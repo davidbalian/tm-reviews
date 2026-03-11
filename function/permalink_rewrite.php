@@ -71,6 +71,41 @@ function tmreviews_redirect_old_permalink() {
 }
 
 
+add_action( 'template_redirect', 'tmreviews_redirect_old_taxonomy_query_param' );
+
+/**
+ * 301 redirect legacy ?places-category=slug query-param URLs
+ * to the new /slug/ pretty permalink.
+ */
+function tmreviews_redirect_old_taxonomy_query_param() {
+    $taxonomy = tmreviews_get_post_type() . '-category';
+
+    if ( empty( $_GET[ $taxonomy ] ) ) {
+        return;
+    }
+
+    if ( is_search() || is_admin() ) {
+        return;
+    }
+
+    $has_other_params = array_diff( array_keys( $_GET ), array( $taxonomy ) );
+    if ( ! empty( $has_other_params ) ) {
+        return;
+    }
+
+    $term = get_term_by( 'slug', sanitize_text_field( $_GET[ $taxonomy ] ), $taxonomy );
+    if ( ! $term || is_wp_error( $term ) ) {
+        return;
+    }
+
+    $new_url = get_term_link( $term, $taxonomy );
+    if ( $new_url && ! is_wp_error( $new_url ) ) {
+        wp_redirect( $new_url, 301 );
+        exit;
+    }
+}
+
+
 add_action( 'created_term', 'tmreviews_flush_on_term_change', 10, 3 );
 add_action( 'edited_term',  'tmreviews_flush_on_term_change', 10, 3 );
 add_action( 'delete_term',  'tmreviews_flush_on_term_change', 10, 3 );
@@ -100,4 +135,19 @@ function tmreviews_schedule_rewrite_flush() {
         flush_rewrite_rules();
         delete_transient( 'tmreviews_flush_rewrite' );
     }
+}
+
+
+add_action( 'init', 'tmreviews_flush_taxonomy_rewrite_once', 99 );
+
+/**
+ * One-time flush after enabling pretty taxonomy permalinks.
+ * Runs once, then sets an option so it never runs again.
+ */
+function tmreviews_flush_taxonomy_rewrite_once() {
+    if ( get_option( 'tmreviews_taxonomy_rewrite_v2' ) ) {
+        return;
+    }
+    flush_rewrite_rules();
+    update_option( 'tmreviews_taxonomy_rewrite_v2', true );
 }

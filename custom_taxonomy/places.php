@@ -76,7 +76,7 @@ if( !function_exists('tmreviews__places_init') ){
             'show_tagcloud'     => true,
             'hierarchical'      => true,
             'query_var'         => true,
-            'rewrite'           => false,
+            'rewrite'           => array( 'slug' => '/', 'with_front' => false ),
         );
         register_taxonomy( $taxonomy, array( $post_type ), $taxonomy_restaurant_category_args );
     }
