@@ -4,7 +4,13 @@
 //Background Image
 $bg_img = tmreviews_get_mod('place_bg', true);
 if(isset($bg_img) && $bg_img != ''){
-    $bg_img_url = is_array($bg_img) ? $bg_img['url'] : $bg_img;
+    if ( is_array($bg_img) ) {
+        $bg_img_url = $bg_img['url'];
+    } elseif ( is_numeric($bg_img) ) {
+        $bg_img_url = wp_get_attachment_url($bg_img);
+    } else {
+        $bg_img_url = $bg_img;
+    }
     $places_bg_style = 'style=background:url(' . $bg_img_url .')';
 } else {
     $places_bg_style = '';
@@ -24,6 +30,9 @@ if(isset($logo) && $logo != ''){
     if ( is_array($logo) ) {
         $logo_title = isset($logo['title']) ? $logo['title'] : '';
         $logo_url   = isset($logo['url'])   ? $logo['url']   : '';
+    } elseif ( is_numeric($logo) ) {
+        $logo_title = get_the_title($logo);
+        $logo_url   = wp_get_attachment_url($logo);
     } else {
         $logo_title = '';
         $logo_url   = $logo;
