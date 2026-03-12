@@ -607,7 +607,13 @@ function tmreviews_helping_wp_footer_ob_end() {
 
 //Google Maps API
 function my_acf_google_map_api( $api ){
-    $api['key'] = gazek_get_theme_mod('google_api_key');
+    // Prefer theme-specific helper if available (for legacy themes),
+    // otherwise fall back to the standard WordPress theme mod.
+    if ( function_exists( 'gazek_get_theme_mod' ) ) {
+        $api['key'] = gazek_get_theme_mod( 'google_api_key' );
+    } else {
+        $api['key'] = get_theme_mod( 'google_api_key', '' );
+    }
     return $api;
 }
 add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');
