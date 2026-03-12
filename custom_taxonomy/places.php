@@ -76,7 +76,12 @@ if( !function_exists('tmreviews__places_init') ){
             'show_tagcloud'     => true,
             'hierarchical'      => true,
             'query_var'         => true,
-            'rewrite'           => array( 'slug' => '/', 'with_front' => false ),
+            // Use a dedicated base slug so this taxonomy
+            // does not hijack all top-level URLs like /register or /contact.
+            'rewrite'           => array(
+                'slug'       => $taxonomy,
+                'with_front' => false,
+            ),
         );
         register_taxonomy( $taxonomy, array( $post_type ), $taxonomy_restaurant_category_args );
     }
