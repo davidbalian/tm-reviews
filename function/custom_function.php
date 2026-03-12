@@ -644,3 +644,29 @@ function tmreviews_cahenge_post_type( $new, $old ){
     update_option('tmreviews_post_type', $tmreviews_post_type);
 
 }
+
+/**
+ * Ensure that real WordPress pages take precedence over the TM Reviews
+ * taxonomy when the slug collides (e.g. /register, /contact).
+ *
+ * Without this, the taxonomy rewrite can cause valid pages to resolve
+ * as empty taxonomy archives and return 404.
+ */
+add_filter( 'request', 'tmreviews_resolve_page_over_taxonomy' );
+
+function tmreviews_resolve_page_over_taxonomy( $vars ) {
+    $taxonomy_key = tmreviews_get_post_type() . '-category';
+
+    if ( isset( $vars[ $taxonomy_key ] ) && ! empty( $vars[ $taxonomy_key ] ) ) {
+        $slug = $vars[ $taxonomy_key ];
+        $page = get_page_by_path( $slug );
+
+        if ( $page ) {
+            unset( $vars[ $taxonomy_key ], $vars['taxonomy'], $vars['term'] );
+            $vars['pagename'] = $slug;
+            $vars['post_type'] = 'page';
+        }
+    }
+
+    return $vars;
+}
