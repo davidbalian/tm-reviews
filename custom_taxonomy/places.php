@@ -76,10 +76,11 @@ if( !function_exists('tmreviews__places_init') ){
             'show_tagcloud'     => true,
             'hierarchical'      => true,
             'query_var'         => true,
-            // Use a dedicated base slug so this taxonomy
-            // does not hijack all top-level URLs like /register or /contact.
+            // Use root-level term slugs (e.g. /cryptocurrencies),
+            // but rely on the request filter in custom_function.php
+            // to let real pages (like /register, /contact) win.
             'rewrite'           => array(
-                'slug'       => $taxonomy,
+                'slug'       => '/',
                 'with_front' => false,
             ),
         );
